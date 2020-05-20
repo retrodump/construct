@@ -51,7 +51,7 @@
 
 #pragma warning(push, 3)
 #include <uxtheme.h>
-#include <tmschema.h>
+//#include <tmschema.h>
 
 class CVisualStylesXP
 {
