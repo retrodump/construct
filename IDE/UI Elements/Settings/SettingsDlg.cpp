@@ -1,7 +1,7 @@
 // SettingsDlg.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "..\..\resource.h"		// main symbols
 #include "SettingsDlg.h"
 #include <afxhtml.h>
@@ -657,3 +657,4 @@ BOOL CSettingsDialog::Create()
 	return CDialog::Create(CSettingsDialog::IDD);
 }
 
+#include "stdafx.h"

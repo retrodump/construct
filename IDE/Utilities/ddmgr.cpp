@@ -15,7 +15,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 // File includes
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include <afxole.h>
 #include <afxodlgs.h>
 #include <afxdisp.h>
@@ -521,3 +521,4 @@ void CDragDropMgr::MakeDropTarget(CWnd* pWnd)//CView* pView)
 {
     m_DropTarget.Register(pWnd);//pView);
 }
+#include "stdafx.h"

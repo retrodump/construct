@@ -18,7 +18,7 @@
 //
 ///////////////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "XHeaderCtrl.h"
 //#include "memdc.h"
 
@@ -530,3 +530,4 @@ void CXHeaderCtrl::OnLButtonDblClk(UINT nFlags, CPoint point)
 
 	//CHeaderCtrl::OnLButtonDown(nFlags, point);
 }
+#include "stdafx.h"

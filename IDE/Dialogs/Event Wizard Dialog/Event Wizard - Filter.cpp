@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 // File includes
-#include "StdAfx.h"
+#include "..\..\StdAfx.h"
 #include "..\..\Construct.h"
 #include "EventWizardDlg.h"
 
@@ -327,3 +327,4 @@ void CEventWizardDlg::UpdateDisplay(CString Previous, bool addTabs)
 		}
 	}
 }
+#include "stdafx.h"

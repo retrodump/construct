@@ -6,7 +6,7 @@
 **
 **********************************************************************/
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "themeutil.h"
 
 CThemeUtil::CThemeUtil()
@@ -218,3 +218,4 @@ HBITMAP CThemeUtil::LoadBitmap(LPWSTR pszBitmapName)
 	}
 	return NULL;
 }
+#include "stdafx.h"

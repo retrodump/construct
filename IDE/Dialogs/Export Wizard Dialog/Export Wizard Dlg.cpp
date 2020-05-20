@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 // File includes
-#include "StdAfx.h"
+#include "..\..\StdAfx.h"
 #include "..\..\Construct.h"
 #include "Export Wizard Dlg.h"
 #include "..\Install Settings Dlg.h"
@@ -336,3 +336,4 @@ void CExportWizardDlg::OnBnClickedInstallSettings()
 		m_InstallPath	= Dlg.m_Path;
 	}		
 }
+#include "stdafx.h"

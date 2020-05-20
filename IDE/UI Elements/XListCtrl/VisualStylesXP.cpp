@@ -45,7 +45,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "visualstylesxp.h"
 #include <Shlwapi.h>
 
@@ -540,3 +540,4 @@ BOOL CVisualStylesXP::UseVisualStyles()
 	return FALSE;
 }
 
+#include "stdafx.h"

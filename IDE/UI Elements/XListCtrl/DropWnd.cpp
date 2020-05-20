@@ -19,7 +19,7 @@
 //
 /////////////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "DropWnd.h"
 #include "AdvComboBox.h"
 #include "DropListBox.h"
@@ -552,3 +552,4 @@ void CDropWnd::OnActivateApp(BOOL bActive, DWORD dwThreadID)
 	}
 }
 
+#include "stdafx.h"

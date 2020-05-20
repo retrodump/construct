@@ -1,5 +1,5 @@
 
-#include "StdAfx.h"
+#include "..\StdAfx.h"
 #include "..\mainfrm.h"
 #include "..\Structure\Effect.h"
 #include "..\Editors\LayoutEditor.h"
@@ -717,3 +717,4 @@ void CAction::Unprepare2() {
 	m_ar = NULL;
 	m_mf = NULL;
 }
+#include "stdafx.h"

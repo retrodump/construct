@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include "..\IDE\stdafx.h"
 
 //////////////////////////////////////////////
 // CD3DDISPLAY FUNCTIONS
@@ -2773,3 +2773,4 @@ void CBatch_Update3dCoords::Do(CD3DDisplay* pDisplay)
 
 
 #endif // include once
+#include "stdafx.h"

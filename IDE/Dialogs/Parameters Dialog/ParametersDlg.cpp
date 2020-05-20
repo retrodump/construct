@@ -595,5 +595,4 @@ int CParametersDlg::GetType()
 	return -1;
 }
 
-
-
+#include "stdafx.h"

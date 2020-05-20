@@ -1,5 +1,4 @@
-
-#include "StdAfx.h"
+#include "..\stdafx.h"
 #include "PropertiesBar.h"
 
 ControlTableEntry controlTable[] = {
@@ -490,3 +489,4 @@ void PropertiesBar::DoAppProperties()
 		pItem->ValueActiveFromDefault();
 */
 }
+#include "stdafx.h"

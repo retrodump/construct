@@ -1,5 +1,5 @@
 // Includes
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "Animator Bar.h"
 #include "..\MainFrm.h"
 #include "..\Dialogs\ImageEditorDlg.h"
@@ -1096,7 +1096,7 @@ void AnimatorBar::AddAnimationToTree(CAnimation* pAnimation, HTREEITEM parent)
 				AngleName.Delete(AngleName.GetLength() - 1);
 		}
 
-		AngleName += "°";
+		AngleName += "ï¿½";
 
 		if(pAnimation->m_Angle == 0)
 			AngleName += " (" + AB_RIGHT + ")";
@@ -1666,3 +1666,4 @@ void AnimatorBar::DropItemOnList(CListCtrl* pDragList, CListCtrl* pDropList)
 	for(int a = m_nDropIndex; a < m_nDropIndex + newimages.size(); a++)
 		pDropList->SetItemState (a, LVIS_SELECTED, LVIS_SELECTED);
 }
+#include "stdafx.h"

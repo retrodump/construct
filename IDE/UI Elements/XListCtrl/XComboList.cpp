@@ -12,7 +12,7 @@
 //
 ///////////////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "XComboList.h"
 
 #ifdef _DEBUG
@@ -407,3 +407,4 @@ void CXComboList::OnTimer(UINT nIDEvent)
 				m_ListBox.SetCurSel(nIndex);
 	}
 }
+#include "stdafx.h"

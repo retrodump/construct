@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "FECFileDialog.h"
 
 #ifndef _INC_CDERR
@@ -230,3 +230,4 @@ void CFECFileDialog::OnFileNameChange()
 
     CFileDialog::OnFileNameChange();
 }
+#include "stdafx.h"

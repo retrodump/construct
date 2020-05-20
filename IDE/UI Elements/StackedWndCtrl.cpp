@@ -1,7 +1,7 @@
 // StackedWndCtrl.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "StackedWndCtrl.h"
 #include "..\Dialogs\ParametersDlg.h"
 #include "..\Utilities\Helper.h"
@@ -593,3 +593,4 @@ BOOL CStackedWndCtrl::PreTranslateMessage(MSG* pMsg)
 
 	return CExtResizableDialog::PreTranslateMessage(pMsg);
 }
+#include "stdafx.h"

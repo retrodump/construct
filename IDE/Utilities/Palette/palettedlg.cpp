@@ -1,7 +1,7 @@
 // PaletteDlg.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 
 #include "PaletteDlg.h"
 #include "..\..\Editors\ImageEditor.h"
@@ -317,3 +317,4 @@ void CPaletteDlg::OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags)
 	
 	CDialog::OnKeyUp(nChar, nRepCnt, nFlags);
 }
+#include "stdafx.h"

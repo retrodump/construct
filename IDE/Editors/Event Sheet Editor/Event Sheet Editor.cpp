@@ -8,6 +8,7 @@
 #include "..\..\Construct Doc.h"
 #include "Event Sheet Editor.h"
 #include <assert.h>
+#include <stdexcept>
 /////////////////////////////////////////////////////////////////////////////
 // EventSheetEditor
 

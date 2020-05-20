@@ -1,7 +1,7 @@
 // XCombo.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "XCombo.h"
 
 #ifdef _DEBUG
@@ -71,3 +71,4 @@ void CXCombo::OnComboComplete()
 
 	SendRegisteredMessage(WM_XCOMBOLIST_COMPLETE, 0, 0);
 }
+#include "stdafx.h"

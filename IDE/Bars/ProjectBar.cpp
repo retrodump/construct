@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "ProjectBar.h"
 #include "..\MainFrm.h"
 
@@ -1805,3 +1805,5 @@ LRESULT ProjectBar::OnEndDrag(WPARAM wParam, LPARAM lParam)
 
 	return result;
 }
+
+#include "stdafx.h"

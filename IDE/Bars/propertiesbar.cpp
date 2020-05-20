@@ -1,7 +1,7 @@
 // mybar.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "PropertiesBar.h"
 #include "../MainFrm.h"
 
@@ -1630,3 +1630,4 @@ void PropertiesBar::Update_OINFO_Properties(editInfo* info)
 	oInfo->ETOnPropertyChanged(info, NULL, 0, &vitem, NULL, &mpvt);
 
 }
+#include "stdafx.h"

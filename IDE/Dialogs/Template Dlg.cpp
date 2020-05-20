@@ -1,7 +1,7 @@
 // TemplateDialog.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "..\Construct.h"
 #include "TemplateDialog.h"
 #include <shlwapi.h>
@@ -201,3 +201,5 @@ void TemplateDialog::OnCreate()
 
 	EndDialog(0);
 }
+
+#include "stdafx.h"

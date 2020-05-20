@@ -14,7 +14,7 @@
 // https://profile.xna.com/profile.aspx?crn=Leonardo+Barbero
 // Other modifications by Ashley Gullen.
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "wavefile.h"
 #undef min // use __min instead
 #undef max // use __max instead
@@ -582,3 +582,4 @@ HRESULT CWaveFile::Write( UINT nSizeToWrite, BYTE* pbSrcData, UINT* pnSizeWrote 
  
     return S_OK;  
 }  
+#include "stdafx.h"

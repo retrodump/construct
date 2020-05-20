@@ -1,7 +1,7 @@
-//// ParamTooltipCtrl.cpp: archivo de implementación
+//// ParamTooltipCtrl.cpp: archivo de implementaciï¿½n
 //
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include ".\paramtooltipctrl.h"
 
 
@@ -238,3 +238,5 @@ CSize CParamTooltipCtrl::Draw( CDC& dc, bool bDraw )
 
 	return CSize(2 + cx, 2 + dc.GetTextExtent(CString(")")).cy);
 }
+
+#include "stdafx.h"

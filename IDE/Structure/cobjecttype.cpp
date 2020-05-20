@@ -3,6 +3,7 @@
 #include "SystemObject.h"
 
 #include "..\MainFrm.h"
+#include <stdexcept>
 extern CMainFrame* pMainWnd;
 
 CObjType::~CObjType()

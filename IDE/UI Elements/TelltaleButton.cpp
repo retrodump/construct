@@ -1,7 +1,7 @@
 // TelltaleButton.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "TelltaleButton.h"
 
 #ifdef _DEBUG
@@ -35,3 +35,4 @@ void CTelltaleButton::OnClicked()
 {
 	GetParent()->SendMessage( WM_RUBRIC_WND_CLICKED_ON, (WPARAM)this->m_hWnd );
 }
+#include "stdafx.h"

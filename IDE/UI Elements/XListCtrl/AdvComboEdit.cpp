@@ -1,7 +1,7 @@
 // AdvComboEdit.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "AdvComboEdit.h"
 
 #ifdef _DEBUG
@@ -46,3 +46,4 @@ void CAdvComboEdit::PreSubclassWindow()
 	SetTimer(1, 100, NULL);	
 	CEdit::PreSubclassWindow();
 }
+#include "stdafx.h"

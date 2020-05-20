@@ -1,7 +1,7 @@
 // ControlsDlg.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "..\Construct.h"
 #include "ControlsDlg.h"
 
@@ -276,3 +276,4 @@ void CControlsDlg::OnDestroy()
 	
 	dlgMan.Save();
 }
+#include "stdafx.h"

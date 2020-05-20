@@ -2819,3 +2819,5 @@ bool IsZipHandleZ(HZIP hz)
   TZipHandleData *han = (TZipHandleData*)hz;
   return (han->flag==2);
 }
+
+#include "stdafx.h"

@@ -1,7 +1,7 @@
 // FlatToolTipCtrl.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "FlatToolTipCtrl.h"
 
 // CToolTipCtrlEx
@@ -262,3 +262,4 @@ LRESULT CToolTipCtrlEx::WindowProc( UINT message, WPARAM wParam, LPARAM lParam )
 	}
 	return CToolTipCtrl::WindowProc( message, wParam, lParam );
 }
+#include "stdafx.h"

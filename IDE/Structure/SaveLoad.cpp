@@ -1,10 +1,11 @@
 // SaveLoad.cpp
 
-#include "StdAfx.h"
+#include "..\StdAfx.h"
 #include "..\MainFrm.h"
 extern CLayerBar* g_pLayerBar;
 
 #include "GUIPersistence.h"
+#include <stdexcept>
 
 void CMainFrame::OnFileNewApplication() 
 {
@@ -368,3 +369,5 @@ void CMainFrame::AddToMRU(CApplication* pApplication)
 	}
 
 }
+
+#include "stdafx.h"

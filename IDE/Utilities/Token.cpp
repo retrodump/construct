@@ -24,7 +24,7 @@
 //
 //////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "Token.h"
 
 #ifdef _DEBUG
@@ -100,3 +100,4 @@ CString CToken::GetNextToken()
 	return newtok;
 
 }
+#include "stdafx.h"

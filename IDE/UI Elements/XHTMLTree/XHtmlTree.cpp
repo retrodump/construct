@@ -35,7 +35,7 @@
 //
 ///////////////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #pragma warning(disable : 4786)
 #include "XHtmlTree.h"
 #include "XNamedColors.h"
@@ -4997,3 +4997,4 @@ void CXHtmlTree::EndDragScroll()
 
 #endif // XHTMLDRAGDROP
 }
+#include "stdafx.h"

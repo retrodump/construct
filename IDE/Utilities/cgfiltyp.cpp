@@ -8,7 +8,7 @@
 //-	Purpose	:	File Type Access
 //- -----------------------------------------------------------------
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "winerror.h"
 
 #ifndef __CGFILTYP_H__
@@ -306,3 +306,4 @@ BOOL CGCFileTypeAccess::SetRegistryValue(
 //-	-----------------------------------------------------------------
 //- END CGFILTYP.CPP Source File
 //-	-----------------------------------------------------------------
+#include "stdafx.h"

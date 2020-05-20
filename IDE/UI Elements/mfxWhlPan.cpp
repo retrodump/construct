@@ -1,7 +1,7 @@
 // mfxWhlPan.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "../resource.h"
 #include "mfxWhlPan.h"
 
@@ -567,3 +567,4 @@ void CWheelWnd::SetCursor(int nCursor)
 	HICON hCursor = ::LoadCursor(hInst,MAKEINTRESOURCE(nCursor));
 	::SetCursor(hCursor);
 }
+#include "stdafx.h"

@@ -1,7 +1,7 @@
 // AutoSave.cpp : implementation file
 //
 
-#include "StdAfx.h"
+#include "..\..\StdAfx.h"
 #include "..\..\Construct.h"
 #include "AutoSaveOptions.h"
 
@@ -119,3 +119,4 @@ void CAutoSave::OnCbnSelchangeTheme()
 {
 	pINI->WriteInt("General", "Theme", m_ThemeCombo.GetCurSel());
 }
+#include "stdafx.h"

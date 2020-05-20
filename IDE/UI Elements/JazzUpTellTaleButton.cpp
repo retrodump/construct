@@ -1,7 +1,7 @@
 // JazzUpTellTaleButton.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "JazzUpTellTaleButton.h"
 #include "..\Dialogs\ParametersDlg.h"
 
@@ -99,3 +99,4 @@ void CJazzUpTellTaleButton::OnRButtonUp(UINT nFlags, CPoint point)
 
 
 }
+#include "stdafx.h"

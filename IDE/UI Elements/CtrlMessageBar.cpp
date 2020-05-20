@@ -28,7 +28,7 @@
 // PLEASE LEAVE THIS HEADER INTACT
 ////////////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "CtrlMessageBar.h"
 
 
@@ -666,3 +666,4 @@ LRESULT CCtrlMessageBar::DoWindowProc(UINT message, WPARAM wParam, LPARAM lParam
   }
   return lResult;
 }
+#include "stdafx.h"

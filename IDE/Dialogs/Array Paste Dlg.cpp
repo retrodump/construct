@@ -290,3 +290,5 @@ void CArrayPasteDlg::OnChangeApCountDim2()
 		editObjectCount->SetWindowText(amt);
 	}
 }
+
+#include "stdafx.h"

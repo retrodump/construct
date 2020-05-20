@@ -368,3 +368,5 @@ BOOL CCeXDib::WriteBMP(LPCTSTR bmpFileName)
 
 	return TRUE;
 } // End of WriteBMP
+
+#include "stdafx.h"

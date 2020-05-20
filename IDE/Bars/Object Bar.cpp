@@ -1,7 +1,7 @@
 // ObjectBar.cpp
 // Implementation of object bar, new to 0.96.3
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "Object Bar.h"
 #include "..\MainFrm.h"
 #include "..\ChildFrame.h"
@@ -794,3 +794,4 @@ void ObjectBarDialog::OnBeginDrag(NMHDR* pNMHDR, LRESULT* pResult)
 		parent.layout_editor[0][0]->InitializeMove(pt);
 	}
 }
+#include "stdafx.h"

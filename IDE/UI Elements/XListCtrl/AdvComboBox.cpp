@@ -19,7 +19,7 @@
 //
 /////////////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "AdvComboBox.h"
 #include "VisualStylesXP.h"
 
@@ -2221,3 +2221,4 @@ void CAdvComboBox::OnActivateApp(BOOL bActive, HTASK hTask)
 	XLISTCTRL_TRACE(_T("in CAdvComboBox::OnActivateApp\n"));
 	CWnd::OnActivateApp(bActive, (DWORD)hTask);
 }
+#include "stdafx.h"

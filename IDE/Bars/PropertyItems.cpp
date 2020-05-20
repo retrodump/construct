@@ -1,6 +1,6 @@
 
 // Property items: for custom property controls, item insertion and change mapping
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "PropertiesBar.h"
 #include "../MainFrm.h"
 
@@ -582,3 +582,4 @@ CExtGridCellEx* PropertiesBar::AddPropertyItemToTree(CPropItem& item, CExtProper
 	// Invalid
 	return NULL;
 }
+#include "stdafx.h"

@@ -2,7 +2,7 @@
 //
 
 // File includes
-#include "StdAfx.h"
+#include "..\..\StdAfx.h"
 #include "..\..\Construct.h"
 #include "ColorMixer.h"
 #include "..\..\Editors\ImageEditor.h"
@@ -790,3 +790,4 @@ BOOL CColorMixer::PreTranslateMessage(MSG* pMsg)
 	}
 	return CDialog::PreTranslateMessage(pMsg);
 }
+#include "stdafx.h"

@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include "..\StdAfx.h"
 #include "mp3.h"
 
 Mp3::Mp3()
@@ -98,3 +98,4 @@ void Mp3::CheckLoop()
 		}
 	}
 }
+#include "stdafx.h"

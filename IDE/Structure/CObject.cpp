@@ -4,6 +4,7 @@
 #include "StdAfx.h"
 #include "..\Structure.h"
 #include "..\Editors\LayoutEditor.h"
+#include <stdexcept>
 
 extern CLayoutEditor* g_pLayoutView;
 

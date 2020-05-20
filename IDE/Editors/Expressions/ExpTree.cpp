@@ -1,6 +1,7 @@
 
-#include "stdafx.h"
+#include "../../stdafx.h"
 #include "ExpTree.h"
+#include <stdexcept>
 
 ExpPart::ExpPart()
 {
@@ -1932,3 +1933,5 @@ void ExpLen::Evaluate(ExpReturn* er)
 }
 
 DEFINE_STD_UNARY(ExpLen)
+
+#include "stdafx.h"

@@ -1,7 +1,7 @@
 // EditSpinSlider.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 
 #include "EditSpinSlider.h"
 #include "..\..\Utilities\Palette\ToolSettings.h"
@@ -549,3 +549,4 @@ void CEditSpinSlider::Refresh()
 {
 	this->OnNcPaint();
 }
+#include "stdafx.h"

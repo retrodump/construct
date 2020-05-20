@@ -5,7 +5,7 @@
 // this code worked last time I saw it
 //////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "HTMLAtom.h"
 
 #ifdef _DEBUG
@@ -50,3 +50,4 @@ void CHTMLAtom::DeleteArray(CObArray & arrArray)
 	arrArray.RemoveAll();
 }
 
+#include "stdafx.h"

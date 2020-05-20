@@ -10,7 +10,7 @@
 //        Added support for <P> <A HREF> and <CENTER>
 //        Corrected alignment of fonts of different sizes
 ////////////////////f<//////////////////////////////////////////////////
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "HTMLDrawer.h"
 
 #include "HTMLAtom.h"
@@ -1414,3 +1414,4 @@ bool CHTMLDrawer::HighlightAnchor(CHTMLAtom * pHighlight,CRect & rctToInvalidate
 
 	return isInvalidate;
 }
+#include "stdafx.h"

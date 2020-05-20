@@ -1,7 +1,7 @@
 // PrefsStatic.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "PrefsStatic.h"
 
 #ifdef _DEBUG
@@ -217,3 +217,4 @@ void CPrefsStatic::MakeCaptionBitmap()
 	// Restore DC
 	dc.SelectObject(pOldBitmap);
 }
+#include "stdafx.h"

@@ -38,7 +38,7 @@
 					background being properly colored on Win2000 as well.
    ========================================================================*/
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "IconEdit.h"
 
 #ifdef _DEBUG
@@ -401,3 +401,4 @@ void CIconWnd::SetIcon( HICON icon )
 	if( ::IsWindow( m_hWnd ) )
 		RedrawWindow();
 }
+#include "stdafx.h"

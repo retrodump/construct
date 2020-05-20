@@ -19,7 +19,7 @@
 //
 /////////////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "DropScrollBar.h"
 #include "DropListBox.h"
 
@@ -181,3 +181,4 @@ void CDropScrollBar::OnLButtonDown(UINT nFlags, CPoint point)
 	
 	CScrollBar::OnLButtonDown(nFlags, point);
 }
+#include "stdafx.h"

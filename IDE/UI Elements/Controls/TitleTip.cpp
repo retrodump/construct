@@ -10,7 +10,7 @@
 //                      specify the maximum length of the tip (Mark Findlay)
    
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "TitleTip.h"
 
 #ifdef _DEBUG
@@ -434,3 +434,4 @@ void CTitleTip::OnPaint()
 
 	// Do not call CWnd::OnPaint() for painting messages
 }
+#include "stdafx.h"

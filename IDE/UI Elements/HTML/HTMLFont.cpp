@@ -5,7 +5,7 @@
 // this code worked last time I saw it
 //////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "HTMLFont.h"
 
 #ifdef _DEBUG
@@ -126,3 +126,4 @@ CFont* CHTMLFont::GetFont(CDC * pDC) const
 
 	return pFont;
 }
+#include "stdafx.h"

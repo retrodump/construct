@@ -21,7 +21,7 @@
 // ColorChooser.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "ColorChooser.h"
 
 #ifdef _DEBUG
@@ -222,3 +222,4 @@ void CColorChooser::OnKillFocus(CWnd* pNewWnd)
 	
 	
 }
+#include "stdafx.h"

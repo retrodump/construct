@@ -252,7 +252,7 @@ public:
 	float GetPeakLevel(int chan) const;
 	float GetRMSLevel(int chan) const;
 	const XAUDIO2_PERFORMANCE_DATA& GetPerformanceData() const;
-	const XAUDIO2_DEVICE_DETAILS& GetDeviceDetails() const;
+	//const XAUDIO2_DEVICE_DETAILS& GetDeviceDetails() const;
 	int GetTotalCacheSize() const;
 	int GetChannelCount() const;
 
@@ -320,7 +320,7 @@ private:
 
 	// Performance & device data
 	XAUDIO2_PERFORMANCE_DATA performanceData;
-	XAUDIO2_DEVICE_DETAILS deviceDetails;
+	//XAUDIO2_DEVICE_DETAILS deviceDetails;
 	int totalCacheSize;
 
 	// Timescaling

@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include "stdafx.h"
 #include "LayerBar.h"
 #include "PropertiesBar.h"
 

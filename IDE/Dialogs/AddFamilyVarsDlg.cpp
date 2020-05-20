@@ -1,7 +1,7 @@
 // Dialogs\AddFamilyVarsDlg.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "..\Construct.h"
 #include "AddFamilyVarsDlg.h"
 
@@ -104,3 +104,5 @@ void CAddFamilyVarsDlg::OnBnClickedOk()
 	else
 		CDialog::OnOK();
 }
+
+#include "stdafx.h"

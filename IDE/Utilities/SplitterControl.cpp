@@ -1,7 +1,7 @@
 // SplitterControl.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "SplitterControl.h"
 
 #ifdef _DEBUG
@@ -346,3 +346,4 @@ void CSplitterControl::SetRange(int nSubtraction, int nAddition, int nRoot)
 	m_nMin = nRoot - nSubtraction;
 	m_nMax = nRoot + nAddition;
 }
+#include "stdafx.h"

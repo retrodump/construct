@@ -1,4 +1,4 @@
-#include "Stdafx.h"
+#include "..\..\stdafx.h"
 #include "Family Manager Dlg.h"
 #include "FM - Effects.h"
 #include "..\NewHLSLDlg.h"
@@ -132,3 +132,5 @@ void CFMBehaviors::OnRemove()
 
 	ShowFamily(m_pFamily);
 }
+
+#include "stdafx.h"

@@ -11,6 +11,7 @@
 #include "..\MainFrm.h"
 #include "..\Utilities\Helper.h"
 #include "..\Dialogs\ProgressDlg.h"
+#include <stdexcept>
 
 CPoint g_ptOffset;
 extern CLayerBar* g_pLayerBar;

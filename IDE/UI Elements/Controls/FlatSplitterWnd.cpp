@@ -13,7 +13,7 @@
  *
  */
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 
 #include "FlatSplitterWnd.h"
 
@@ -547,3 +547,4 @@ BOOL CFlatSplitterWnd::OnMouseWheel(UINT fFlags, short zDelta, CPoint point)
 	return result;
 
 }
+#include "stdafx.h"

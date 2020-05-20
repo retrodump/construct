@@ -2,7 +2,7 @@
 //
 
 // File includes
-#include "StdAfx.h"
+#include "..\..\stdafx.h"
 #include "..\..\Construct.h"
 #include "ToolSettings.h"
 #include "..\..\Dialogs\ManageActionPointsDlg.h"
@@ -353,3 +353,4 @@ void CAnimationToolbar::OnLButtonDown(UINT nFlags, CPoint point)
 		ChangeFrame(newindex);
 
 }
+#include "stdafx.h"

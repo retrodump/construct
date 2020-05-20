@@ -2,7 +2,7 @@
 
 
 // Includes
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "miscfunc.h"
 
 bool GetListOfFiles(vector<CString>& paths, CString path, CString path_name)
@@ -676,3 +676,4 @@ int CListCtrlX::GetSelectedItem()
 	POSITION itemPosition = GetFirstSelectedItemPosition();
 	return GetNextSelectedItem(itemPosition);
 }
+#include "stdafx.h"

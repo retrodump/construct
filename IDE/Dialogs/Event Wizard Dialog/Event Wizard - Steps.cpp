@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 // File includes
-#include "StdAfx.h"
+#include "..\..\StdAfx.h"
 #include "..\..\Construct.h"
 #include "EventWizardDlg.h"
 #include "..\Object Info Dlg.h"
@@ -416,3 +416,4 @@ void CEventWizardDlg::ChangeStep()
 
 	Invalidate();
 }
+#include "stdafx.h"

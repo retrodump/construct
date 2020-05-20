@@ -1,7 +1,7 @@
 // XEdit.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "XEdit.h"
 
 #ifdef _DEBUG
@@ -182,3 +182,4 @@ void CXEdit::OnDestroy()
 	ReleaseCapture();
 	CEdit::OnDestroy();
 }
+#include "stdafx.h"

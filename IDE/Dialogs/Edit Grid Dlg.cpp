@@ -1,7 +1,7 @@
 // Dialogs\EditGridDlg.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "..\Construct.h"
 #include "EditGridDlg.h"
 
@@ -59,3 +59,5 @@ void CEditGridDlg::OnOK()
 	
 	CDialog::OnOK();
 }
+
+#include "stdafx.h"

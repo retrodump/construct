@@ -8,6 +8,7 @@
 #include "..\Dialogs\AddFamilyVarsDlg.h"
 
 #include "GUIPersistence.h"
+#include <stdexcept>
 
 extern CMainFrame* g_MainFrame;
 extern CPluginMap g_Plugins;

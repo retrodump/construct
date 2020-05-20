@@ -21,7 +21,7 @@
 // PaletteWnd.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 //#include "../../SelColorDlg.h"
 #include "PaletteWnd.h"
 #include "ColorChooser.h"
@@ -630,3 +630,4 @@ Invalidate();
 }
 
 }
+#include "stdafx.h"

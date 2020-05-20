@@ -19,7 +19,7 @@
 //
 /////////////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "DropListBox.h"
 #include "AdvComboBox.h"
 
@@ -339,3 +339,4 @@ int CDropListBox::GetMaxVisibleItems()
 	int n = rectClient.Height() / GetItemHeight(0);
 	return n;
 }
+#include "stdafx.h"

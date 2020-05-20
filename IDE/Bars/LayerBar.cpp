@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include "stdafx.h"
 #include "LayerBar.h"
 
 #ifdef _DEBUG

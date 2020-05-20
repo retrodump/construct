@@ -29,7 +29,7 @@
 // build configurations.
 //#include "stdafx.h"
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include <tchar.h>
 #include <crtdbg.h>
 #include "XHtmlDrawLink.h"
@@ -324,3 +324,4 @@ BOOL CXHtmlDrawLink::SetLinkCursor()
 	}
 	return FALSE;
 }
+#include "stdafx.h"

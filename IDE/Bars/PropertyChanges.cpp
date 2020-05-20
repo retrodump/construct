@@ -2074,3 +2074,4 @@ int CTraitPropertyValueMgr::OnChange()
 	return 0;
 }
 
+#include "stdafx.h"

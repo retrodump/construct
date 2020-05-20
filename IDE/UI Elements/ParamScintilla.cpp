@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include "..\StdAfx.h"
 #include "ParamScintilla.h"
 #include "..\Structure\SystemObject.h"
 #include "..\Utilities\Helper.h"
@@ -423,3 +423,4 @@ void CParamScintilla::OnChar(NMHDR* pNMHDR, LRESULT* pResult,CScintillaWnd& scin
 
 	}*/
 }
+#include "stdafx.h"

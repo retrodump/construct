@@ -39,7 +39,7 @@
 // PLEASE LEAVE THIS HEADER INTACT
 ////////////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "RichToolTipCtrl.h"
 
 #ifdef _DEBUG
@@ -521,3 +521,4 @@ void CRichToolTipCtrl::OnCustomDraw(NMHDR* pNMHDR, LRESULT* pResult)
     break;
   }
 }
+#include "stdafx.h"

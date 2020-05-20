@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 // File includes
-#include "StdAfx.h"
+#include "..\..\StdAfx.h"
 #include "..\..\Construct.h"
 #include "EventWizardDlg.h"
 #include "..\Object Info Dlg.h"
@@ -604,3 +604,4 @@ void CEventWizardDlg::UpdateButtons()
 		m_Back.EnableWindow();
 	}
 }
+#include "stdafx.h"

@@ -8,6 +8,7 @@
 #include "StdAfx.h"
 #include "..\..\Construct.h"
 #include "..\ParametersDlg.h"
+#include <stdexcept>
 extern CMainFrame* g_MainFrame;
 
 ObjectParameterButton::ObjectParameterButton(CApplication* application_, CLayout* layout_) :

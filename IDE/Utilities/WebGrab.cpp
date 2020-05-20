@@ -25,7 +25,7 @@
 //
 //////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "WebGrab.h"
 
 #ifdef _DEBUG
@@ -494,3 +494,4 @@ CString CWebGrabSession::GetErrorMessage()
 {
 	return errorMessage;
 }
+#include "stdafx.h"

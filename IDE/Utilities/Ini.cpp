@@ -36,7 +36,7 @@
 /////////////////////////////////////////////////////////////////////////////////
 // Cini Class Implementation
 /////////////////////////////////////////////////////////////////////////////////
-#include "stdafx.h" // include if you got "fatal error C1010: unexpected end of file..."
+#include "../stdafx.h" // include if you got "fatal error C1010: unexpected end of file..."
 #include "Ini.h"
 #include <string.h>
 #include <stdio.h>
@@ -1092,3 +1092,4 @@ LPTSTR CIni::__StrDupEx(LPCTSTR lpStart, LPCTSTR lpEnd)
 //  header directive"
 //-----------------------------------------------------------------------------
 // Please scroll all the way up and uncomment '#include "stdafx.h"'
+#include "stdafx.h"

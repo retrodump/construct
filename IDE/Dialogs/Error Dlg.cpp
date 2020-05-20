@@ -11,7 +11,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 // File includes
-#include "StdAfx.h"
+#include "..\StdAfx.h"
 #include "..\Construct.h"
 #include "Error Dlg.h"
 
@@ -106,3 +106,4 @@ INT_PTR CErrorDlg::UpdateMessage(LPCSTR title, LPCSTR message)
 
 	return DoModal();
 }
+#include "stdafx.h"

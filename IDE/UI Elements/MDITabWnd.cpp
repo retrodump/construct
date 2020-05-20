@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "mditabwnd.h"
 #include "..\mainfrm.h"
 
@@ -133,3 +133,4 @@ LRESULT CConstructMDITabs::WindowProc(UINT message, WPARAM wParam, LPARAM lParam
 
 	return CExtTabMdiWhidbeyWnd::WindowProc(message, wParam, lParam);
 }
+#include "stdafx.h"

@@ -17,7 +17,7 @@
 //  Paul DiLascia
 //////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "HTMLStatic.h"
 
 #include "HTMLDrawer.h"
@@ -289,3 +289,5 @@ void CHTMLStatic::OnSize(UINT nType, int cx, int cy)
 	m_isTextPrepared = false;
 	Invalidate(true);
 }
+
+#include "stdafx.h"

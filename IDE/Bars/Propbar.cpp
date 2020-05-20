@@ -1,7 +1,7 @@
 // ProfStudioProperties.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 
 #include "..\MainFrm.h"
 #include "PropertiesBar.h"
@@ -359,3 +359,4 @@ CExtSafeString sThousandSep;
 		);
 	strCopy.ReleaseBuffer();
 }
+#include "stdafx.h"

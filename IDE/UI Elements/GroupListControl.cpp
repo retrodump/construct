@@ -1,6 +1,6 @@
 // GroupListCtrl.cpp
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "GroupListCtrl.h"
 
 BEGIN_MESSAGE_MAP(CGroupListCtrl, CListCtrl)
@@ -69,3 +69,4 @@ void CGroupListCtrl::AddGroup(int Index, LPCSTR Name)
 
 	delete []wText;
 }
+#include "stdafx.h"

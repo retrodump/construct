@@ -1,7 +1,7 @@
 // Dialogs/EditEventGroup.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "EditEventGroup.h"
 
 // CEditEventGroup dialog
@@ -92,3 +92,4 @@ void CEditEventGroup::OnOK()
 
 	CDialog::OnOK();
 }
+#include "stdafx.h"

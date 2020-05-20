@@ -17,7 +17,7 @@
 //
 ///////////////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "CreateCheckboxImageList.h"
 #include "..\XListCtrl\visualstylesxp.h"
 
@@ -193,3 +193,5 @@ BOOL CreateCheckboxImageList(CDC *pDC,
 }
 
 }	// namespace
+
+#include "stdafx.h"

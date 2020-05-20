@@ -1,7 +1,7 @@
 // CWebUpdate.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "CWebUpdate.h"
 
 #include "sha1.h" 
@@ -258,3 +258,4 @@ bool CWebUpdate::DownloadDifferent(int i)
 	else
 		return true;
 }
+#include "stdafx.h"

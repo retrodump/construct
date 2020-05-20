@@ -6,6 +6,7 @@
 #include "ExpTree.h"
 #include "CExpression.h"
 #include "..\..\Utilities\Helper.h"
+#include <stdexcept>
 
 ///////////////////////////////////
 // CExpression functions

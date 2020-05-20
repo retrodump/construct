@@ -23,7 +23,7 @@
 //
 ///////////////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "XListCtrl.h"
 #include "SortCStringArray.h"
 
@@ -150,7 +150,7 @@ void CXListCtrl::SubclassHeaderControl()
 	// if the list control has a header control window, then
 	// subclass it
 
-	// Thanks to Alberto Gattegno and Alon Peleg  and their article
+	// Thanks to Alberto Gattegno and Alon Pelegï¿½ï¿½and their article
 	// "A Multiline Header Control Inside a CListCtrl" for easy way
 	// to determine if the header control exists.
 
@@ -2704,3 +2704,4 @@ void CXListCtrl::OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags)
 		SetCurSel(nTrial, TRUE);	// set new selection, scroll into view
 	}
 }
+#include "stdafx.h"

@@ -1,6 +1,6 @@
 
 // File includes
-#include "StdAfx.h"
+#include "..\StdAfx.h"
 #include "AboutDlg.h"
 
 #ifdef _DEBUG
@@ -73,3 +73,4 @@ BOOL CAboutDlg::OnInitDialog()
 
 	return true;
 }
+#include "stdafx.h"

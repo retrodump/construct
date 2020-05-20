@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "Helper.h"
 
 void GetTypesInFolder(CApplication* application, CString folder, vector<CObjType*>* objects)
@@ -495,3 +495,4 @@ void ForEachParameter(CApplication* pApp, ExpParamFunctor& f)
 		
 	}
 }
+#include "stdafx.h"

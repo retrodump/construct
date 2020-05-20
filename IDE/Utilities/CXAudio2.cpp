@@ -17,7 +17,7 @@
     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "cxaudio2.h"
 #include "wavefile.h"
 #include "XAPOFX.h"
@@ -143,7 +143,7 @@ void CXAudio2::Init(const CXAudio2SetupParameters& params)
 		throw CXAudio2Error(hr, "Failed to create XAudio2 mastering voice");
 
 	// Get the device details
-	pXAudio2->GetDeviceDetails(0, &deviceDetails);
+	//pXAudio2->GetDeviceDetails(0, &deviceDetails);
 
 	// Set up the channel strip
 	channels.reserve(numChannels);
@@ -213,7 +213,7 @@ void CXAudio2::Tick(float _timeScale)
 	pXAudio2->GetPerformanceData(&performanceData);
 
 	// Update the volume meter
-	master.UpdateVolumeMeter(deviceDetails.OutputFormat.Format.nChannels);
+	//master.UpdateVolumeMeter(deviceDetails.OutputFormat.Format.nChannels);
 
 	// Update timescaling
 	if (_timeScale != timeScale) {
@@ -286,10 +286,10 @@ const XAUDIO2_PERFORMANCE_DATA& CXAudio2::GetPerformanceData() const
 	return performanceData;
 }
 
-const XAUDIO2_DEVICE_DETAILS& CXAudio2::GetDeviceDetails() const
+/*const XAUDIO2_DEVICE_DETAILS& CXAudio2::GetDeviceDetails() const
 {
 	return deviceDetails;
-}
+}*/
 
 int CXAudio2::GetTotalCacheSize() const
 {
@@ -1351,3 +1351,4 @@ void CXAudio2::CheckToFreeCacheEntry(CXAudio2::CacheEntry* pce)
 		}
 	}
 }
+#include "stdafx.h"
