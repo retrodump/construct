@@ -4,6 +4,7 @@ Requiements:
 * VS 2019 (Link for community) https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16
 or older version from here https://visualstudio.microsoft.com/vs/older-downloads/
 * DirectX9 SDK https://www.microsoft.com/en-us/download/details.aspx?id=6812
+* ProfUIS284ym
 * Good mood
 
 =========

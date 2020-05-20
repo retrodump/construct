@@ -1,2 +1,136 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1267,5): warning MSB8012: TargetPath(C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\DebugXP\Construct.exe) does not match the Linker's OutputFile property value (C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Construct.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-LINK : fatal error LNK1104: cannot open file 'ProfUIS284ym.lib'
+﻿  StdAfx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(83,1): error C2079: 'CExtBitmap' uses undefined class '__PROF_UIS_API'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(84,1): error C2059: syntax error: 'protected'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(86,1): error C2059: syntax error: 'public'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(89,2): error C2079: 'Filter' uses undefined class '__PROF_UIS_API'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(90,2): error C2059: syntax error: 'public'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(92,3): error C2143: syntax error: missing ';' before '{'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(92,3): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(110,2): error C2059: syntax error: 'protected'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(111,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(111,17): error C2146: syntax error: missing ';' before identifier 'm_eFT'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(114,2): error C2059: syntax error: 'public'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(116,18): error C2146: syntax error: missing ')' before identifier 'eFT'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(120,18): error C2588: '::~Filter': illegal global destructor
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(120,20): error C2575: 'Filter': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(120,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(120,20): error C2365: 'Filter': redefinition; previous definition was 'data variable'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(88): message : see declaration of 'Filter'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(122,5): error C2575: 'Process': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(125,18): error C2146: syntax error: missing ')' before identifier 'eFT'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(127,38): error C2433: 'e_filter_type': 'virtual' not permitted on data declarations
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(127,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(127,38): error C2086: 'int e_filter_type': redefinition
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(111): message : see declaration of 'e_filter_type'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(127,25): error C2146: syntax error: missing ';' before identifier 'FilterTypeGet'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(127,46): error C2270: 'FilterTypeGet': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(127,46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(129,18): error C2146: syntax error: missing ')' before identifier 'eFT'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(131,40): error C2270: 'FilterWidthGet': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(133,5): error C2575: 'FilterWidthSet': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(135,39): error C2575: 'FilterWidthSetDefault': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(137,18): error C2146: syntax error: missing ')' before identifier 'eFT'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(139,41): error C2270: 'FilterWidthIsUsed': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(140,40): error C2575: 'FilterParameterGetCount': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(142,11): error C2270: 'FilterParameterGetAt': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(146,5): error C2575: 'FilterParameterSetAt': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(148,51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(148,33): error C2146: syntax error: missing ';' before identifier 'stat_FilterNameGet'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(149,18): error C2146: syntax error: missing ')' before identifier 'eFT'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(151,47): error C2433: '__EXT_MFC_SAFE_LPCTSTR': 'virtual' not permitted on data declarations
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(151,47): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(151,47): error C2086: 'int __EXT_MFC_SAFE_LPCTSTR': redefinition
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(148): message : see declaration of '__EXT_MFC_SAFE_LPCTSTR'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(151,34): error C2146: syntax error: missing ';' before identifier 'FilterNameGet'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(151,55): error C2270: 'FilterNameGet': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(151,55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(152,2): error C2059: syntax error: '}'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(152,2): error C2143: syntax error: missing ';' before '}'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(154,1): error C2059: syntax error: 'private'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(156,2): error C2079: 'WT' uses undefined class '__PROF_UIS_API'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(158,3): warning C4099: '__PROF_UIS_API': type name first seen using 'class' now seen using 'struct'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(155): message : see declaration of '__PROF_UIS_API'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(157,10): error C2062: type '__PROF_UIS_API' unexpected
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(158,3): error C2143: syntax error: missing ';' before '{'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(158,3): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(174,2): error C2059: syntax error: 'protected'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(176,6): error C2143: syntax error: missing ';' before '*'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(176,6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(176,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(177,2): error C2059: syntax error: 'public'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(179,13): error C2065: '_f': undeclared identifier
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(180,21): error C2275: 'UINT': illegal use of this type as an expression
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(177): message : see declaration of 'UINT'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(180,9): error C2146: syntax error: missing ')' before identifier 'nLineSizeDst'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(183,6): error C2588: '::~WT': illegal global destructor
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(183,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(183,8): error C2365: 'WT': redefinition; previous definition was 'data variable'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(155): message : see declaration of 'WT'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(185,3): error C2270: 'GetMin': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(189,3): error C2270: 'GetMax': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(196,3): error C2270: 'Weight': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(199,2): error C2059: syntax error: '}'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(199,2): error C2143: syntax error: missing ';' before '}'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(200,1): error C2059: syntax error: 'public'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(213,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(213,14): error C2365: 'CExtBitmap': redefinition; previous definition was 'data variable'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(82): message : see declaration of 'CExtBitmap'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(215,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(215,20): error C2143: syntax error: missing ',' before '&'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(216,4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(216,4): error C2365: 'CExtBitmap': redefinition; previous definition was 'data variable'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(82): message : see declaration of 'CExtBitmap'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(217,21): error C2588: '::~CExtBitmap': illegal global destructor
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(217,23): error C2575: 'CExtBitmap': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(217,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(217,23): error C2365: 'CExtBitmap': redefinition; previous definition was 'data variable'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(82): message : see declaration of 'CExtBitmap'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(218,13): error C2143: syntax error: missing ';' before '&'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(218,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(218,13): error C2086: 'int CExtBitmap': redefinition
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(82): message : see declaration of 'CExtBitmap'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(219,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(219,20): error C2143: syntax error: missing ',' before '&'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(220,4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(220,4): error C2801: 'operator =' must be a non-static member
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(224,4): error C2575: 'AssignFromHICON': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(226,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(226,20): error C2143: syntax error: missing ',' before '&'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(228,4): error C2575: 'AssignFromOther': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(229,22): error C2575: 'Empty': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(230,30): error C2270: 'IsEmpty': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(231,49): error C2575: 'SerializeUnpacked': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(243,4): error C2575: 'Flip': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(253,10): error C2061: syntax error: identifier 'Filter'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(254,4): error C2575: 'Scale': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(260,26): error C2146: syntax error: missing ')' before identifier 'sResourceID'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(280,26): error C2146: syntax error: missing ')' before identifier 'strFilePath'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(298,26): error C2146: syntax error: missing ')' before identifier 'strFilePath'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(335,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(335,20): error C2143: syntax error: missing ',' before '&'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(344,10): error C2270: 'ExtractEditableBitmap': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(346,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(346,20): error C2143: syntax error: missing ',' before '&'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(357,10): error C2270: 'CreateHICON': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(360,10): error C2270: 'CreateBitmap': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(363,10): error C2270: 'CreateBitmap': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(369,10): error C2270: 'CreateBitmap': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(373,10): error C2270: 'CreateBitmap': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(375,51): error C2270: 'IsAutoPreMultiplyRGBChannels': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(378,4): error C2575: 'PreMultiplyRGBChannels': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(379,50): error C2270: 'PreMultipliedRGBChannelsGet': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(380,65): error C2575: 'PreMultipliedRGBChannelsSet': only member functions and bases can be virtual
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(421,10): error C2270: 'DrawImpl': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(433,10): error C2270: 'Draw': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(441,10): error C2270: 'Draw': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(447,10): error C2270: 'Draw': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(452,10): error C2270: 'Draw': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(463,10): error C2270: 'DrawNcFrame': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(473,10): error C2270: 'DrawNcFrame': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(483,10): error C2270: 'DrawSkinParts': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(492,10): error C2270: 'DrawSkinParts': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(504,10): error C2270: 'AlphaBlend': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(512,10): error C2270: 'AlphaBlend': modifiers not allowed on nonmember functions
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtCmdIcon.h(512,10): fatal error C1003: error count exceeds 100; stopping compilation
