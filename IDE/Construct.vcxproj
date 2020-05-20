@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug2|Win32">
+      <Configuration>Debug2</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugXP|Win32">
+      <Configuration>DebugXP</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{149F8C14-1D7A-48FA-8F89-570ADD8907E9}</ProjectGuid>
+    <RootNamespace>Construct</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.29403.142</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\..\..\Construct Compile\IDE\ReleaseX\</OutDir>
+    <IntDir>.\..\..\Construct Compile\IDE\ReleaseX\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\..\..\Construct Compile\IDE\Debug\</OutDir>
+    <IntDir>.\..\..\Construct Compile\IDE\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\Construct Compile\IDE\Release/Construct.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Zm192 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>LIBs\Include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_GUILIB_STATIC_;_CRT_SECURE_NO_DEPRECATE;_SECURE_SCL=0;XLISTCTRLLIB_STATIC;XLISTCTRLLIB_NOAUTOLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\..\Construct Compile\IDE\ReleaseX/Construct.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\..\Construct Compile\IDE\ReleaseX/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\Construct Compile\IDE\ReleaseX/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\Construct Compile\IDE\ReleaseX/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformationFile>.\..\..\Construct Compile\IDE\ReleaseX/</BrowseInformationFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0809</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/IGNORE:4089 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;shlwapi.lib;CxImage.lib;JPEGd.lib;Strmiids.lib;XAPOFX.lib;PNGd.lib;ZLIB.lib;tiff.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Construct.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>LIBs\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <TypeLibraryResourceID>1</TypeLibraryResourceID>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug />
+      <ProgramDatabaseFile>.\..\..\Construct Compile\IDE\ReleaseX/Construct.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>false</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\Construct Compile\IDE\Release/Construct.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\Construct Compile\IDE\Debug/Construct.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>-Zm114 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>LIBs\Include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_GUILIB_STATIC_;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\..\Construct Compile\IDE\Debug/Construct.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\..\Construct Compile\IDE\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\Construct Compile\IDE\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\Construct Compile\IDE\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformationFile>.\..\..\Construct Compile\IDE\Debug/</BrowseInformationFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0809</Culture>
+      <ShowProgress>false</ShowProgress>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;shlwapi.lib;CxImage.lib;JPEG.lib;PNG.lib;ZLIB.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <OutputFile>Construct.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>LIBs\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\..\..\Construct Compile\IDE\Debug/Construct.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\Construct Compile\IDE\Debug/Construct.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\Construct Compile\IDE\Release/Construct.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>LIBs\UI Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_GUILIB_STATIC_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\..\Construct Compile\IDE\Release/Construct.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\..\Construct Compile\IDE\Debug2/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\Construct Compile\IDE\Debug2/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\Construct Compile\IDE\Debug2/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformationFile>.\..\..\Construct Compile\IDE\Debug/</BrowseInformationFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0809</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/IGNORE:4089 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;shlwapi.lib;CxImage.lib;JPEG.lib;PNG.lib;ZLIB.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Construct.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>LIBs\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug />
+      <ProgramDatabaseFile>.\..\..\Construct Compile\IDE\Release/Construct.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>false</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\Construct Compile\IDE\Release/Construct.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\Construct Compile\IDE\Debug/Construct.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Zm192 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>LIBs\Include\;libs\;$(LibraryPath);$(DXSDK_DIR)Lib\x86;$(IncludePath);$(DXSDK_DIR)Include;$(DXSDK_DIR)Lib\x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_GUILIB_STATIC_;_CRT_SECURE_NO_DEPRECATE;_SECURE_SCL=0;XLISTCTRLLIB_STATIC;XLISTCTRLLIB_NOAUTOLIB;DEBUGBUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\..\Construct Compile\IDE\Debug/Construct.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\..\Construct Compile\IDE\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\Construct Compile\IDE\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\Construct Compile\IDE\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformationFile>.\..\..\Construct Compile\IDE\Debug/</BrowseInformationFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0809</Culture>
+      <ShowProgress>false</ShowProgress>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;shlwapi.lib;CxImage.lib;JPEGd.lib;PNGd.lib;ZLIB.lib;tiff.lib;Strmiids.lib;XAPOFX.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <OutputFile>Construct.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>LIBs\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\..\..\Construct Compile\IDE\Debug/Construct.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\..\Construct Compile\IDE\Debug/Construct.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\CDisplay.cpp" />
+    <ClCompile Include="Bars\Animator Bar.cpp" />
+    <ClCompile Include="Bars\AppProperties.cpp" />
+    <ClCompile Include="Bars\LayerBar.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Bars\LayerDlg.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Bars\LayerListBox.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Bars\Object Bar.cpp" />
+    <ClCompile Include="Bars\ProjectBar.cpp" />
+    <ClCompile Include="Bars\Propbar.cpp" />
+    <ClCompile Include="Bars\PropertiesBar.cpp" />
+    <ClCompile Include="Bars\PropertyChanges.cpp" />
+    <ClCompile Include="Bars\PropertyItems.cpp" />
+    <ClCompile Include="ChildFrame.cpp" />
+    <ClCompile Include="Construct Doc.cpp" />
+    <ClCompile Include="Construct.cpp" />
+    <ClCompile Include="Dialogs\About Dlg.cpp" />
+    <ClCompile Include="Dialogs\AddFamilyVarsDlg.cpp" />
+    <ClCompile Include="Dialogs\Array Paste Dlg.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Controls Dlg.cpp" />
+    <ClCompile Include="Dialogs\Edit Event Group Dlg.cpp" />
+    <ClCompile Include="Dialogs\Edit Grid Dlg.cpp" />
+    <ClCompile Include="Dialogs\Error Dlg.cpp" />
+    <ClCompile Include="Dialogs\Event Wizard Dialog\Event Wizard - Filter.cpp" />
+    <ClCompile Include="Dialogs\Event Wizard Dialog\Event Wizard - Steps.cpp" />
+    <ClCompile Include="Dialogs\Event Wizard Dialog\Event Wizard Dlg.cpp" />
+    <ClCompile Include="Dialogs\Event Wizard Dialog\IconEdit.cpp" />
+    <ClCompile Include="Dialogs\Export Wizard Dialog\Export Wizard Dlg.cpp" />
+    <ClCompile Include="Dialogs\Family Manager Dialog\Family Manager Dlg.cpp" />
+    <ClCompile Include="Dialogs\Family Manager Dialog\FM - Behaviors.cpp" />
+    <ClCompile Include="Dialogs\Family Manager Dialog\FM - Effects.cpp" />
+    <ClCompile Include="Dialogs\Family Manager Dialog\FM - Private Variables.cpp" />
+    <ClCompile Include="Dialogs\Family Manager Dialog\Remove Family Variable Dlg.cpp" />
+    <ClCompile Include="Dialogs\Find Replace Dlg.cpp" />
+    <ClCompile Include="Dialogs\First Start Dlg.cpp" />
+    <ClCompile Include="Dialogs\Image Editor Dlg.cpp" />
+    <ClCompile Include="Dialogs\Import Images Dlg.cpp" />
+    <ClCompile Include="Dialogs\Insert Object Dlg.cpp" />
+    <ClCompile Include="Dialogs\Install Settings Dlg.cpp" />
+    <ClCompile Include="Dialogs\Manage Action Points Dlg.cpp" />
+    <ClCompile Include="Dialogs\Manage Attributes Dlg.cpp" />
+    <ClCompile Include="Dialogs\Manage Families Dlg.cpp" />
+    <ClCompile Include="Dialogs\Manage Variable Dlg.cpp" />
+    <ClCompile Include="Dialogs\Menu Editor Dlg.cpp" />
+    <ClCompile Include="Dialogs\New Angle Dlg.cpp" />
+    <ClCompile Include="Dialogs\New Behavior Dlg.cpp" />
+    <ClCompile Include="Dialogs\New Comment Dlg.cpp" />
+    <ClCompile Include="Dialogs\New Effect Dlg.cpp" />
+    <ClCompile Include="Dialogs\New Family Dlg.cpp" />
+    <ClCompile Include="Dialogs\New Transition Dlg.cpp" />
+    <ClCompile Include="Dialogs\New Variable Dlg.cpp" />
+    <ClCompile Include="Dialogs\NewProjectDlg.cpp" />
+    <ClCompile Include="Dialogs\Object Exchange Dlg.cpp" />
+    <ClCompile Include="Dialogs\Object Info Dlg.cpp" />
+    <ClCompile Include="Dialogs\Object Selector Dlg.cpp" />
+    <ClCompile Include="Dialogs\OnFuncDlg.cpp" />
+    <ClCompile Include="Dialogs\Parameters Dialog\ParametersDlg.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Parameters Dialog\ParametersDlg_Expand.cpp" />
+    <ClCompile Include="Dialogs\Parameters Dialog\ParametersDlg_Parameters.cpp" />
+    <ClCompile Include="Dialogs\Parameters Dialog\ParametersDlg_Scintilla.cpp" />
+    <ClCompile Include="Dialogs\PicEdResizeDlg.cpp" />
+    <ClCompile Include="Dialogs\Popup dialogs\ACE Filter Dlg.cpp" />
+    <ClCompile Include="Dialogs\Popup dialogs\Rotate Dlg.cpp" />
+    <ClCompile Include="Dialogs\Popup dialogs\Snippets Dlg.cpp" />
+    <ClCompile Include="Dialogs\Progress Dlg.cpp" />
+    <ClCompile Include="Dialogs\PythonLibs.cpp" />
+    <ClCompile Include="Dialogs\Script Dlg.cpp" />
+    <ClCompile Include="Dialogs\Template Dlg.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="Dialogs\UpdateDlg.cpp" />
+    <ClCompile Include="Dialogs\UsedPluginDlg.cpp" />
+    <ClCompile Include="Editors\ChronoEventEditor\ActionTooltip.cpp" />
+    <ClCompile Include="Editors\ChronoEventEditor\ChronoEventEditor.cpp" />
+    <ClCompile Include="Editors\CPictureEditor.cpp" />
+    <ClCompile Include="Editors\EditorAction.cpp" />
+    <ClCompile Include="Editors\EditorCondition.cpp" />
+    <ClCompile Include="Editors\EditorEvent.cpp" />
+    <ClCompile Include="Editors\EditorParam.cpp" />
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor - Actions.cpp" />
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor - Bookmarks.cpp" />
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor - Draw.cpp" />
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor - Functions.cpp" />
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor - Lookup.cpp" />
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor - Mouse &amp; Keyboard.cpp" />
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor - Right Click.cpp" />
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor.cpp" />
+    <ClCompile Include="Editors\Expressions\CExpression.cpp" />
+    <ClCompile Include="Editors\Expressions\ExpTree.cpp" />
+    <ClCompile Include="Editors\ImageEditor.cpp" />
+    <ClCompile Include="Editors\Layout Editor - Draw.cpp" />
+    <ClCompile Include="Editors\Layout Editor - Mouse.cpp" />
+    <ClCompile Include="Editors\Layout Editor - Object.cpp" />
+    <ClCompile Include="Editors\LayoutEditor.cpp" />
+    <ClCompile Include="Editors\Scintilla\ScintillaWnd.cpp" />
+    <ClCompile Include="Editors\Scintilla\Tokenizer.cpp" />
+    <ClCompile Include="libs\tinyxml-2.5.3\src\tinystr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="libs\tinyxml-2.5.3\src\tinyxml.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="libs\tinyxml-2.5.3\src\tinyxmlerror.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="libs\tinyxml-2.5.3\src\tinyxmlparser.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Structure\CAnimation.cpp" />
+    <ClCompile Include="Structure\CApplication.cpp" />
+    <ClCompile Include="Structure\CDragObjects.cpp" />
+    <ClCompile Include="Structure\CFamily.cpp" />
+    <ClCompile Include="Structure\CImageResource.cpp" />
+    <ClCompile Include="Structure\CLayer.cpp" />
+    <ClCompile Include="Structure\CLayout.cpp" />
+    <ClCompile Include="Structure\CObject.cpp" />
+    <ClCompile Include="Structure\CObjectType.cpp" />
+    <ClCompile Include="Structure\CTypeChecker.cpp" />
+    <ClCompile Include="Structure\Export\Export - Installer.cpp" />
+    <ClCompile Include="Structure\Export\Export - Layout.cpp" />
+    <ClCompile Include="Structure\Export\Export - Python.cpp" />
+    <ClCompile Include="Structure\Export\Export.cpp" />
+    <ClCompile Include="Structure\Export\Export_Events.cpp" />
+    <ClCompile Include="Structure\Export\Export_Images.cpp" />
+    <ClCompile Include="Structure\Export\Export_Resources.cpp" />
+    <ClCompile Include="Structure\GUIPersistence.cpp" />
+    <ClCompile Include="Structure\Languages\Languages.cpp" />
+    <ClCompile Include="Structure\ObjectFunctions.cpp" />
+    <ClCompile Include="Structure\Resources.cpp" />
+    <ClCompile Include="Structure\Ribbon.cpp" />
+    <ClCompile Include="Structure\SaveLoad.cpp" />
+    <ClCompile Include="Structure\SystemObject.cpp" />
+    <ClCompile Include="UI Elements\CaptionEditXP.cpp" />
+    <ClCompile Include="UI Elements\Controls\CeXDib.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug2|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="UI Elements\Controls\CustomTabCtrl.cpp" />
+    <ClCompile Include="UI Elements\Controls\FlatSplitterWnd.cpp" />
+    <ClCompile Include="UI Elements\Controls\FlatToolTipCtrl.cpp" />
+    <ClCompile Include="UI Elements\Controls\ParamTooltipCtrl.cpp" />
+    <ClCompile Include="UI Elements\Controls\RichToolTipCtrl.cpp" />
+    <ClCompile Include="UI Elements\Controls\ThemeUtil.cpp" />
+    <ClCompile Include="UI Elements\Controls\TitleTip.cpp" />
+    <ClCompile Include="UI Elements\CtrlMessageBar.cpp" />
+    <ClCompile Include="UI Elements\EditSpinSlider.cpp" />
+    <ClCompile Include="UI Elements\FontSize.cpp" />
+    <ClCompile Include="UI Elements\GroupListControl.cpp" />
+    <ClCompile Include="UI Elements\HTML\HTMLAtom.cpp" />
+    <ClCompile Include="UI Elements\HTML\HTMLDrawer.cpp" />
+    <ClCompile Include="UI Elements\HTML\HTMLFont.cpp" />
+    <ClCompile Include="UI Elements\HTML\HTMLStatic.cpp" />
+    <ClCompile Include="UI Elements\JazzUpTellTaleButton.cpp" />
+    <ClCompile Include="UI Elements\MDITabWnd.cpp" />
+    <ClCompile Include="UI Elements\mfxWhlPan.cpp" />
+    <ClCompile Include="UI Elements\ParamScintilla.cpp" />
+    <ClCompile Include="UI Elements\Settings\AutoSaveOptions.cpp" />
+    <ClCompile Include="UI Elements\Settings\PrefsStatic.cpp" />
+    <ClCompile Include="UI Elements\Settings\SettingsDlg.cpp" />
+    <ClCompile Include="UI Elements\StackedWndCtrl.cpp" />
+    <ClCompile Include="UI Elements\TelltaleButton.cpp" />
+    <ClCompile Include="UI Elements\XHTMLTree\CreateCheckboxImageList.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XHTMLTree\XHtmlDraw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XHTMLTree\XHtmlDrawLink.cpp" />
+    <ClCompile Include="UI Elements\XHTMLTree\XHtmlTree.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XHTMLTree\XNamedColors.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XHTMLTree\XString.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugXP|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XListCtrl\AdvComboBox.cpp" />
+    <ClCompile Include="UI Elements\XListCtrl\AdvComboEdit.cpp" />
+    <ClCompile Include="UI Elements\XListCtrl\DropListBox.cpp" />
+    <ClCompile Include="UI Elements\XListCtrl\DropScrollBar.cpp" />
+    <ClCompile Include="UI Elements\XListCtrl\DropWnd.cpp" />
+    <ClCompile Include="UI Elements\XListCtrl\VisualStylesXP.cpp" />
+    <ClCompile Include="UI Elements\XListCtrl\XCombo.cpp" />
+    <ClCompile Include="UI Elements\XListCtrl\XComboList.cpp" />
+    <ClCompile Include="UI Elements\XListCtrl\XEdit.cpp" />
+    <ClCompile Include="UI Elements\XListCtrl\XHeaderCtrl.cpp" />
+    <ClCompile Include="UI Elements\XListCtrl\XListCtrl.cpp" />
+    <ClCompile Include="Utilities\cgfiltyp.cpp" />
+    <ClCompile Include="Utilities\CWebUpdate.cpp" />
+    <ClCompile Include="Utilities\CXAudio2.cpp" />
+    <ClCompile Include="Utilities\ddmgr.cpp" />
+    <ClCompile Include="Utilities\FECFileDialog.cpp" />
+    <ClCompile Include="Utilities\Helper.cpp" />
+    <ClCompile Include="Utilities\Ini.cpp" />
+    <ClCompile Include="Utilities\miscfunc.cpp" />
+    <ClCompile Include="Utilities\MP3.cpp" />
+    <ClCompile Include="Utilities\Palette\ColorChooser.cpp" />
+    <ClCompile Include="Utilities\Palette\ColorMixer.cpp" />
+    <ClCompile Include="Utilities\Palette\palettedlg.cpp" />
+    <ClCompile Include="Utilities\Palette\PaletteWnd.cpp" />
+    <ClCompile Include="Utilities\Palette\ToolSettings.cpp" />
+    <ClCompile Include="Utilities\SplitterControl.cpp" />
+    <ClCompile Include="Utilities\Token.cpp" />
+    <ClCompile Include="Utilities\Undo.cpp" />
+    <ClCompile Include="Utilities\Wavefile.cpp" />
+    <ClCompile Include="Utilities\WebGrab.cpp" />
+    <ClCompile Include="Utilities\zip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Construct.rc" />
+    <ResourceCompile Include="LIBs\Include\Resources\resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ADV_TIP_BORDER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R1_LEFT_PART.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R1_RIGHT_PART.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R1_SIMPLE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R2_LUNA_BLUE_LEFT_PART.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R2_LUNA_BLUE_RIGHT_PART.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R2_LUNA_BLUE_SIMPLE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R2_OBSIDIAN_LEFT_PART.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R2_OBSIDIAN_RIGHT_PART.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R2_OBSIDIAN_SIMPLE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_CHECK_BOX_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_CHECK_BOX_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_CHECK_BOX_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_COMBO_BOX_BUTTON_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_COMBO_BOX_BUTTON_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_COMBO_BOX_BUTTON_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_DCA_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_DCA_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_DCA_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_DCA_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_GCB_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_GCB_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_GCB_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_BORDER_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_BORDER_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_CAPTION_BK_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_CAPTION_BK_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_CAPTION_BK_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_CHECK_AREA_CHECKED_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_CHECK_AREA_CHECKED_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_CHECK_AREA_UNCHECKED_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_CHECK_AREA_UNCHECKED_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_SELECTION_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_SELECTION_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRB_HV_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRB_HV_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRB_V_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRB_V_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRG_HV_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRG_HV_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRG_V_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRG_V_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_CLOSE_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_CLOSE_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_CLOSE_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_MAXIMIZE_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_MAXIMIZE_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_MAXIMIZE_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_MINIMIZE_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_MINIMIZE_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_MINIMIZE_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_RESTORE_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_RESTORE_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_RESTORE_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_BUTTON_BK_HOVER_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_BUTTON_BK_HOVER_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_BUTTON_BK_HOVER_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_BUTTON_BK_PRESSED_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_BUTTON_BK_PRESSED_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_BUTTON_BK_PRESSED_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_ACTIVE_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_ACTIVE_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_ACTIVE_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_ACTIVE_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_INACTIVE_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_INACTIVE_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_INACTIVE_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_INACTIVE_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_OPTIONS_PAGE_WATERMARK.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_PROGRESS_BORDER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_PROGRESS_MAIN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_QATB_BK_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_QATB_BK_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_QATB_BK_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_QATB_BK_R2_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_QATB_CEB_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_QATB_CEB_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_QATB_CEB_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RADIO_BUTTON_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RADIO_BUTTON_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RESIZING_GRIPPER_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RESIZING_GRIPPER_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RESIZING_GRIPPER_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_DOWN_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_DOWN_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_DOWN_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_MENU_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_MENU_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_MENU_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_UP_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_UP_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_UP_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_LARGE_SEPARATOR_HOVER_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_LARGE_SEPARATOR_HOVER_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_LARGE_SEPARATOR_PRESSED_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_LARGE_SEPARATOR_PRESSED_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_LARGE_TOP_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_LARGE_TOP_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_SMALL_LEFT_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_SMALL_LEFT_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_SMALL_RIGHT_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_SMALL_RIGHT_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_COLLAPSED_ICON_FRAME_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_COLLAPSED_ICON_FRAME_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_DDA_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_DDA_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_DDA_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_FILE_BUTTON_AREA_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_FILE_BUTTON_INTERIOR_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_FILE_BUTTON_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_FILE_BUTTON_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_FILE_BUTTON_R3_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_FILE_BUTTON_R3_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_FILE_BUTTON_R3_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_HOVER_BK_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_HOVER_BK_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_HOVER_BK_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_HOVER_BK_R2_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_NORMAL_BK_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_NORMAL_BK_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_NORMAL_BK_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_NORMAL_BK_R2_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_PRESSED_BK_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_PRESSED_BK_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_PRESSED_BK_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_PRESSED_BK_R2_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_SELECTED_BK_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_HOVER_BK_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_HOVER_BK_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_HOVER_BK_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_HOVER_BK_R2_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_NORMAL_BK_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_NORMAL_BK_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_NORMAL_BK_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_NORMAL_BK_R2_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_LEFT_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_LEFT_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_LEFT_R2_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_LEFT_R3_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_LEFT_R3_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_LEFT_R3_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_RIGHT_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_RIGHT_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_RIGHT_R2_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_RIGHT_R3_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_RIGHT_R3_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_RIGHT_R3_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_HT_MASK_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_HT_MASK_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_LEFT_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_LEFT_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_LEFT_R2_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_LEFT_R3_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_LEFT_R3_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_LEFT_R3_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_RIGHT_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_RIGHT_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_RIGHT_R2_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_RIGHT_R3_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_RIGHT_R3_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_RIGHT_R3_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_PAGE_BK_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_PAGE_BK_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_PAGE_BK_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_PAGE_BK_R2_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_SEPARATOR_H_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_SEPARATOR_H_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_SEPARATOR_H_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_SEPARATOR_V_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_SEPARATOR_V_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_SEPARATOR_V_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_LEFT_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_LEFT_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_LEFT_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_MIDDLE_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_MIDDLE_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_MIDDLE_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_RIGHT_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_RIGHT_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_RIGHT_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_SEPARATOR_HOVER_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_SEPARATOR_HOVER_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_SEPARATOR_PRESSED_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_SEPARATOR_PRESSED_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_SOLID_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_SOLID_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_SOLID_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_BIG_BORDER_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_BIG_BORDER_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_BIG_BORDER_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_BIG_BORDER_R2_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_BIG_BORDER_R3_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_BIG_BORDER_R3_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_BIG_BORDER_R3_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_OPTION_COLD_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_OPTION_COLD_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_OPTION_HOT_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_OPTION_HOT_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_DOWN_DISABLED_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_DOWN_DISABLED_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_DOWN_NORMAL_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_DOWN_NORMAL_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_UP_DISABLED_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_UP_DISABLED_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_UP_NORMAL_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_UP_NORMAL_R2.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ENTIRE_BK_R1_DARK.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ENTIRE_BK_R1_LIGHT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ENTIRE_BK_R2_LUNA_BLUE_DARK.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ENTIRE_BK_R2_LUNA_BLUE_LIGHT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ENTIRE_BK_R2_OBSIDIAN_DARK.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ENTIRE_BK_R2_OBSIDIAN_LIGHT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ENTIRE_BK_R2_SILVER_DARK.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_GRIPPER_R1_HORZ.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_GRIPPER_R1_VERT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_PAGE_BK_R1_DARK.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_PAGE_BK_R1_LIGHT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_PAGE_BK_R2_LUNA_BLUE_DARK.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_PAGE_BK_R2_LUNA_BLUE_LIGHT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_PAGE_BK_R2_OBSIDIAN_DARK.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_PAGE_BK_R2_OBSIDIAN_LIGHT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_PAGE_BK_R2_SILVER_DARK.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_BUTTONS_R1_HORZ.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_BUTTONS_R1_VERT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_BUTTONS_R2_HORZ_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_BUTTONS_R2_HORZ_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_BUTTONS_R2_VERT_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_BUTTONS_R2_VERT_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_GRIPPER_R2_HORZ.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_GRIPPER_R2_VERT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_DARK_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_DARK_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_DARK_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_DARK_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_LIGHT_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_LIGHT_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_LIGHT_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_LIGHT_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_SEPARATOR_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_SEPARATOR_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_SEPARATOR_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_SEPARATOR_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_AREA_BK_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_AREA_BK_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_AREA_BK_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SEPARATOR_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SEPARATOR_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SEPARATOR_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SEPARATOR_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SHAPE_ARR_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SHAPE_ARR_LUNA_BLUE_SEL_AREA.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SHAPE_ARR_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SHAPE_ARR_OBSIDIAN_SEL_AREA.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SHAPE_ARR_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SHAPE_ARR_SILVER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SHAPE_ARR_SILVER_SEL_AREA.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_MINUS_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_MINUS_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_MINUS_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_PLUS_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_PLUS_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_PLUS_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_THUMB_R1.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_THUMB_R2_LUNA_BLUE.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_THUMB_R2_OBSIDIAN.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\ID_EXT_RIBBON_FILE_MENU_EXIT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res2007\ID_EXT_RIBBON_FILE_MENU_OPTIONS.bmp" />
+    <Image Include="LIBs\Include\Resources\ResPM\IDB_EXT_PM_16x16.bmp" />
+    <Image Include="LIBs\Include\Resources\ResPM\IDB_EXT_PM_24x24.bmp" />
+    <Image Include="LIBs\Include\Resources\ResPM\IDB_EXT_PM_32x32.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_CUSTOM_TB_IMAGES_HI.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B1_BOTTOM.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B1_CENTER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B1_LEFT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B1_RIGHT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B1_TAB.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B1_TOP.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_BOTTOM.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_CENTER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_LEFT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_OUTER_BK_BOTTOM.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_OUTER_BK_LEFT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_OUTER_BK_RIGHT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_OUTER_BK_TOP.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_RIGHT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_TAB.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_TOP.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RG_CTX_MENU_IMAGES_HI.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_TAB_CLOSE_BTN_DEFAULT.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDD_EXT_COLOR_DIALOG.ico" />
+    <Image Include="LIBs\Include\Resources\Res\IDD_EXT_ICON_EDIT_DIALOG.ico" />
+    <Image Include="LIBs\Include\Resources\Res\IDD_EXT_ICON_MOUSE_POS.ico" />
+    <Image Include="LIBs\Include\Resources\Res\IDD_EXT_ICON_SELECTION_SIZE.ico" />
+    <Image Include="LIBs\Include\Resources\Res\IDR_EXT_TOOLBAR_IED_HELPER.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDR_EXT_TOOLBAR_IED_TOOLS.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDR_EXT_TOOLBAR_PPW.bmp" />
+    <Image Include="LIBs\Include\Resources\Res\IDR_EXT_TOOLBAR_PROPERTY_GRID.bmp" />
+    <Image Include="res\about.bmp" />
+    <Image Include="res\addcondition.bmp" />
+    <Image Include="res\addtoolbar.bmp" />
+    <Image Include="res\angleicons.bmp" />
+    <Image Include="res\animicons.bmp" />
+    <Image Include="res\autopan.bmp" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\bitmap7.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="res\bmp00004.bmp" />
+    <Image Include="res\bmp00005.bmp" />
+    <Image Include="res\bmp12814.bmp" />
+    <Image Include="res\ColumnHeaderEnd.bmp" />
+    <Image Include="res\ColumnHeaderSpan.bmp" />
+    <Image Include="res\ColumnHeaderStart.bmp" />
+    <Image Include="res\comment.bmp" />
+    <Image Include="res\commentmenu.bmp" />
+    <Image Include="res\Construct Doc.ico" />
+    <Image Include="res\Construct.ico" />
+    <Image Include="res\custom.bmp" />
+    <Image Include="res\disk.bmp" />
+    <Image Include="res\dot.bmp" />
+    <Image Include="res\downarrow.bmp" />
+    <Image Include="res\event1.bmp" />
+    <Image Include="res\event2.bmp" />
+    <Image Include="res\Filter.png" />
+    <Image Include="res\fs.bmp" />
+    <Image Include="res\GuiDefault.bmp" />
+    <Image Include="res\guidockbar.bmp" />
+    <Image Include="res\guidockoffice.bmp" />
+    <Image Include="res\guimdiicons.bmp" />
+    <Image Include="res\hammer.bmp" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\icon3.ico" />
+    <Image Include="res\icon4.ico" />
+    <Image Include="res\icon5.ico" />
+    <Image Include="res\icon6.ico" />
+    <Image Include="res\icon_add.bmp" />
+    <Image Include="res\icon_delete.bmp" />
+    <Image Include="res\icon_edit.bmp" />
+    <Image Include="res\icon_load.bmp" />
+    <Image Include="res\icon_save.bmp" />
+    <Image Include="res\icon_search.ico" />
+    <Image Include="res\idr_main.ico" />
+    <Image Include="res\information.bmp" />
+    <Image Include="res\layer1.bmp" />
+    <Image Include="res\layericons.bmp" />
+    <Image Include="res\loop.bmp" />
+    <Image Include="res\menuicon.bmp" />
+    <Image Include="res\MenuIcons.bmp" />
+    <Image Include="res\not_equal.bmp" />
+    <Image Include="res\number.bmp" />
+    <Image Include="res\objecttoolbar.bmp" />
+    <Image Include="res\PictureEditorToolbarMain.bmp" />
+    <Image Include="res\project.bmp" />
+    <Image Include="res\resourceicons.bmp" />
+    <Image Include="res\small1.bmp" />
+    <Image Include="res\SmallIcon.bmp" />
+    <Image Include="res\string.bmp" />
+    <Image Include="res\system1.bmp" />
+    <Image Include="res\systemb.bmp" />
+    <Image Include="res\systemtoolbar.bmp" />
+    <Image Include="res\temptexture.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\Toolbar_Python.bmp" />
+    <Image Include="res\toolbar_windows.bmp" />
+    <Image Include="res\tools1.bmp" />
+    <Image Include="res\trigger.bmp" />
+    <Image Include="res\up.bmp" />
+    <Image Include="res\uparrow.bmp" />
+    <Image Include="res\zoomtoolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\CDisplay.h" />
+    <ClInclude Include="..\Common\VEdittime.h" />
+    <ClInclude Include="..\Common\VRuntime.h" />
+    <ClInclude Include="Bars\Animator Bar.h" />
+    <ClInclude Include="Bars\LayerBar.h" />
+    <ClInclude Include="Bars\Object Bar.h" />
+    <ClInclude Include="Bars\ProjectBar.h" />
+    <ClInclude Include="Bars\Propbar.h" />
+    <ClInclude Include="Bars\PropertiesBar.h" />
+    <ClInclude Include="ChildFrame.h" />
+    <ClInclude Include="Construct Doc.h" />
+    <ClInclude Include="Construct.h" />
+    <ClInclude Include="ControlsDlg.h" />
+    <ClInclude Include="Dialogs\AboutDlg.h" />
+    <ClInclude Include="Dialogs\AddCommentDlg.h" />
+    <ClInclude Include="Dialogs\AddFamilyVarsDlg.h" />
+    <ClInclude Include="Dialogs\AddVariableDlg.h" />
+    <ClInclude Include="Dialogs\AngleDlg.h" />
+    <ClInclude Include="Dialogs\arraypastedlg.h" />
+    <ClInclude Include="Dialogs\AttributesManagerDlg.h" />
+    <ClInclude Include="Dialogs\EditEventGroup.h" />
+    <ClInclude Include="Dialogs\EditGridDlg.h" />
+    <ClInclude Include="Dialogs\Event Wizard Dialog\EventWizardDlg.h" />
+    <ClInclude Include="Dialogs\ExchangeDlg.h" />
+    <ClInclude Include="Dialogs\Export Wizard Dialog\Export Wizard Dlg.h" />
+    <ClInclude Include="Dialogs\Family Manager Dialog\Family Manager Dlg.h" />
+    <ClInclude Include="Dialogs\Family Manager Dialog\FM - Behaviors.h" />
+    <ClInclude Include="Dialogs\Family Manager Dialog\FM - Effects.h" />
+    <ClInclude Include="Dialogs\Family Manager Dialog\FM - Private Variables.h" />
+    <ClInclude Include="Dialogs\Family Manager Dialog\Remove Family Variable Dlg.h" />
+    <ClInclude Include="Dialogs\FindReplaceDlg.h" />
+    <ClInclude Include="Dialogs\ImageEditorDlg.h" />
+    <ClInclude Include="Dialogs\ImportImagesDlg.h" />
+    <ClInclude Include="Dialogs\Insert Object Dlg.h" />
+    <ClInclude Include="Dialogs\Install Settings Dlg.h" />
+    <ClInclude Include="Dialogs\ManageActionPointsDlg.h" />
+    <ClInclude Include="Dialogs\ManageFamiliesDlg.h" />
+    <ClInclude Include="Dialogs\ManageVariableDlg.h" />
+    <ClInclude Include="Dialogs\MenuEditorDlg.h" />
+    <ClInclude Include="Dialogs\NewContainerDlg.h" />
+    <ClInclude Include="Dialogs\NewEventSheetDlg.h" />
+    <ClInclude Include="Dialogs\NewFamilyDlg.h" />
+    <ClInclude Include="Dialogs\NewHLSLDlg.h" />
+    <ClInclude Include="Dialogs\NewProjectDlg.h" />
+    <ClInclude Include="Dialogs\NewTransitionDlg.h" />
+    <ClInclude Include="Dialogs\Object Info Dlg.h" />
+    <ClInclude Include="Dialogs\ObjectSelector.h" />
+    <ClInclude Include="Dialogs\OnFuncDlg.h" />
+    <ClInclude Include="Dialogs\ParametersDlg.h" />
+    <ClInclude Include="Dialogs\PicEdResizeDlg.h" />
+    <ClInclude Include="Dialogs\Popup dialogs\ACE Filter Dlg.h" />
+    <ClInclude Include="Dialogs\Popup dialogs\Rotate Dlg.h" />
+    <ClInclude Include="Dialogs\Popup dialogs\Snippets Dlg.h" />
+    <ClInclude Include="Dialogs\PreferencesDlg.h" />
+    <ClInclude Include="Dialogs\ProgressDlg.h" />
+    <ClInclude Include="Dialogs\PythonLibs.h" />
+    <ClInclude Include="Dialogs\ScriptDlg.h" />
+    <ClInclude Include="Dialogs\TemplateDialog.h" />
+    <ClInclude Include="Dialogs\UpdateDlg.h" />
+    <ClInclude Include="Dialogs\Used Plugins Dlg.h" />
+    <ClInclude Include="Editors\ChronoEventEditor\ActionTooltip.h" />
+    <ClInclude Include="Editors\ChronoEventEditor\ChronoEventEditor.h" />
+    <ClInclude Include="Editors\CPictureEditor.h" />
+    <ClInclude Include="Editors\EditorAction.h" />
+    <ClInclude Include="Editors\EditorCondition.h" />
+    <ClInclude Include="Editors\EditorEvent.h" />
+    <ClInclude Include="Editors\EditorParam.h" />
+    <ClInclude Include="Editors\Event Sheet Editor\Event Sheet Editor.h" />
+    <ClInclude Include="Editors\EventSheetEditor.h" />
+    <ClInclude Include="Editors\Expressions\CExpression.h" />
+    <ClInclude Include="Editors\Expressions\ExpTree.h" />
+    <ClInclude Include="Editors\ImageEditor.h" />
+    <ClInclude Include="Editors\LayoutEditor.h" />
+    <ClInclude Include="Editors\Scintilla\ScintillaWnd.h" />
+    <ClInclude Include="FirstStartDlg.h" />
+    <ClInclude Include="LIBs\Include\Resources\resource.h" />
+    <ClInclude Include="libs\tinyxml-2.5.3\include\tinystr.h" />
+    <ClInclude Include="libs\tinyxml-2.5.3\include\tinyxml.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SettingsDlgSrc\PrefsStatic.h" />
+    <ClInclude Include="SettingsDlgSrc\SettingsDlg.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Structure.h" />
+    <ClInclude Include="Structure\CAnimation.h" />
+    <ClInclude Include="Structure\CApplication.h" />
+    <ClInclude Include="Structure\CContainer.h" />
+    <ClInclude Include="Structure\CDragObjects.h" />
+    <ClInclude Include="Structure\CFamily.h" />
+    <ClInclude Include="Structure\CImageResource.h" />
+    <ClInclude Include="Structure\CLayer.h" />
+    <ClInclude Include="Structure\CLayout.h" />
+    <ClInclude Include="Structure\CMovement.h" />
+    <ClInclude Include="Structure\CObject.h" />
+    <ClInclude Include="Structure\CObjectType.h" />
+    <ClInclude Include="Structure\CPlugin.h" />
+    <ClInclude Include="Structure\CTransition.h" />
+    <ClInclude Include="Structure\CTypeChecker.h" />
+    <ClInclude Include="Structure\Effect.h" />
+    <ClInclude Include="Structure\EventSheet.h" />
+    <ClInclude Include="Structure\Export\Export.h" />
+    <ClInclude Include="Structure\GUIPersistence.h" />
+    <ClInclude Include="Structure\Languages\Languages - Application Properties.h" />
+    <ClInclude Include="Structure\Languages\Languages - Bars.h" />
+    <ClInclude Include="Structure\Languages\Languages - Dialogs.h" />
+    <ClInclude Include="Structure\Languages\Languages - Editors.h" />
+    <ClInclude Include="Structure\Languages\Languages - Layer Properties.h" />
+    <ClInclude Include="Structure\Languages\Languages - Layout Properties.h" />
+    <ClInclude Include="Structure\Languages\Languages - Properties.h" />
+    <ClInclude Include="Structure\Languages\Languages - Ribbon.h" />
+    <ClInclude Include="Structure\Languages\Languages.h" />
+    <ClInclude Include="Structure\ObjectFunctions.h" />
+    <ClInclude Include="Structure\Resources.h" />
+    <ClInclude Include="Structure\Ribbon.h" />
+    <ClInclude Include="Structure\SDKDefs.h" />
+    <ClInclude Include="Structure\SystemObject.h" />
+    <ClInclude Include="UI Elements\captioneditxp.h" />
+    <ClInclude Include="UI Elements\Controls\FlatSplitterWnd.h" />
+    <ClInclude Include="UI Elements\Controls\RichToolTipCtrl.h" />
+    <ClInclude Include="UI Elements\Controls\TitleTip.h" />
+    <ClInclude Include="UI Elements\EditSpinSlider.h" />
+    <ClInclude Include="UI Elements\grouplistctrl.h" />
+    <ClInclude Include="UI Elements\HTML\HTMLAtom.h" />
+    <ClInclude Include="UI Elements\HTML\HTMLDrawer.h" />
+    <ClInclude Include="UI Elements\HTML\HTMLFont.h" />
+    <ClInclude Include="UI Elements\HTML\HTMLStatic.h" />
+    <ClInclude Include="UI Elements\mfxWhlPan.h" />
+    <ClInclude Include="UI Elements\ParamScintilla.h" />
+    <ClInclude Include="UI Elements\ruler.h" />
+    <ClInclude Include="UI Elements\scbarcf.h" />
+    <ClInclude Include="UI Elements\scbarg.h" />
+    <ClInclude Include="UI Elements\Schemadef.h" />
+    <ClInclude Include="UI Elements\Settings\AutoSaveOptions.h" />
+    <ClInclude Include="UI Elements\Settings\settingsdlg.h" />
+    <ClInclude Include="UI Elements\sizecbar.h" />
+    <ClInclude Include="UI Elements\stackedwndctrl.h" />
+    <ClInclude Include="UI Elements\ThemeUtil.h" />
+    <ClInclude Include="UI Elements\Tmschema.h" />
+    <ClInclude Include="UI Elements\XListCtrl\AdvComboBox.h" />
+    <ClInclude Include="UI Elements\XListCtrl\AdvComboEdit.h" />
+    <ClInclude Include="UI Elements\XListCtrl\DropListBox.h" />
+    <ClInclude Include="UI Elements\XListCtrl\DropScrollBar.h" />
+    <ClInclude Include="UI Elements\XListCtrl\DropWnd.h" />
+    <ClInclude Include="UI Elements\XListCtrl\MemDC.h" />
+    <ClInclude Include="UI Elements\XListCtrl\SortCStringArray.h" />
+    <ClInclude Include="UI Elements\XListCtrl\VisualStylesXP.h" />
+    <ClInclude Include="UI Elements\XListCtrl\XCombo.h" />
+    <ClInclude Include="UI Elements\XListCtrl\XComboList.h" />
+    <ClInclude Include="UI Elements\XListCtrl\XEdit.h" />
+    <ClInclude Include="UI Elements\XListCtrl\XHeaderCtrl.h" />
+    <ClInclude Include="UI Elements\XListCtrl\XListCtrl.h" />
+    <ClInclude Include="UI Elements\XListCtrl\XTrace.h" />
+    <ClInclude Include="Utilities\anchor.h" />
+    <ClInclude Include="Utilities\CWebUpdate.h" />
+    <ClInclude Include="Utilities\CxImage\CxImage\ximage.h" />
+    <ClInclude Include="Utilities\dlgman.h" />
+    <ClInclude Include="Utilities\EditTreeCtrl.h" />
+    <ClInclude Include="Utilities\EditTreeCtrlEx.h" />
+    <ClInclude Include="Utilities\FECFileDialog.h" />
+    <ClInclude Include="Utilities\func.h" />
+    <ClInclude Include="Utilities\Helper.h" />
+    <ClInclude Include="Utilities\Palette\ColorChooser.h" />
+    <ClInclude Include="Utilities\Palette\colormixer.h" />
+    <ClInclude Include="Utilities\Palette\palettedlg.h" />
+    <ClInclude Include="Utilities\Palette\PaletteWnd.h" />
+    <ClInclude Include="Utilities\Palette\ToolSettings.h" />
+    <ClInclude Include="Utilities\SplitterControl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_ARROW_INVERTED_H.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_BIG_X_CROSS.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_BLACK_ARROW_BOTTOM.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_BLACK_ARROW_LEFT.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_BLACK_ARROW_RIGHT.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_BLACK_ARROW_TOP.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_BLACK_FINGER.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_BLACK_HAND.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_CMD_COPY.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_CMD_DELETE.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_CMD_MOVE.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_HAND.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_HOLLOW_CROSS_NORMAL.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_HOLLOW_CROSS_SMALL.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_ALL.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_BOTTOM.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_BOTTOM_LEFT.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_BOTTOM_RIGHT.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_HORZ.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_LEFT.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_RIGHT.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_TOP.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_TOP_LEFT.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_TOP_RIGHT.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_VERT.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_RESIZE_H1.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_RESIZE_H2.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_RESIZE_V1.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_RESIZE_V2.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_SUPPRESS.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_SUPPRESS_ARROW.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_ZOOM_HOLLOW.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_ZOOM_MINUS.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_ZOOM_PLUS.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_AIRBRUSH.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_BRUSH.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_CP.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_ELLIPSE.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_FILL.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_LINE.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_MAGNIFY.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_PENCIL.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_RECT.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_RR.cur" />
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_RS.cur" />
+    <None Include="res\Construct.rc2" />
+    <None Include="res\cur00001.cur" />
+    <None Include="res\cursor1.cur" />
+    <None Include="res\default1.bin" />
+    <None Include="res\fpoint.cur" />
+    <None Include="res\pan_all.cur" />
+    <None Include="res\pan_down.cur" />
+    <None Include="res\pan_downfast.cur" />
+    <None Include="res\pan_downleft.cur" />
+    <None Include="res\pan_downleftfast.cur" />
+    <None Include="res\pan_downright.cur" />
+    <None Include="res\pan_downrightfast.cur" />
+    <None Include="res\pan_left.cur" />
+    <None Include="res\pan_leftfast.cur" />
+    <None Include="res\pan_leftright.cur" />
+    <None Include="res\pan_right.cur" />
+    <None Include="res\pan_rightfast.cur" />
+    <None Include="res\pan_up.cur" />
+    <None Include="res\pan_updown.cur" />
+    <None Include="res\pan_upfast.cur" />
+    <None Include="res\pan_upleft.cur" />
+    <None Include="res\pan_upleftfast.cur" />
+    <None Include="res\pan_upright.cur" />
+    <None Include="res\pan_uprightfast.cur" />
+    <None Include="res\PicEd Brush.cur" />
+    <None Include="res\PicEd Cross.cur" />
+    <None Include="res\PicEd Erase.cur" />
+    <None Include="res\PicEd Fill.cur" />
+    <None Include="res\PicEd Pen.cur" />
+    <None Include="res\png1.bin" />
+    <None Include="res\runtime1.bin" />
+    <None Include="res\spliter.cur" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Construct.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

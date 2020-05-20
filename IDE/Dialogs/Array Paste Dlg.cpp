@@ -1,7 +1,7 @@
 // arraypastedlg.cpp : implementation file
 //
 
-#include "stdafx.h"
+#include "..\stdafx.h"
 #include "..\Construct.h"
 #include "arraypastedlg.h"
 

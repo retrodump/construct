@@ -1,0 +1,2570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a57ade17-607f-4bf6-bf64-284026c47f54}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Tab Control CPP">
+      <UniqueIdentifier>{2037f936-c078-41ed-9466-1f0ef1051009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI CPP">
+      <UniqueIdentifier>{2929ec9d-37a3-4aa0-a62f-0ffedc9625a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI CPP\Preferences CPP">
+      <UniqueIdentifier>{5a7885fe-9ec8-47e4-816e-963e15f8b156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI CPP\Misc">
+      <UniqueIdentifier>{2a5df6e9-745c-4cdb-93b7-bddf1c5f1eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI CPP\HTML CPP">
+      <UniqueIdentifier>{650a0089-2585-4a97-b686-9f0ee00942c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI CPP\XListCtrl CPP">
+      <UniqueIdentifier>{9b6939ac-b990-480b-ae3f-9f43867f41f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI CPP\Utilities CPP">
+      <UniqueIdentifier>{0aaf5ddd-1289-4343-a28c-87d508818dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI CPP\XHTMLTree CPP">
+      <UniqueIdentifier>{26c6f336-9abc-4cb5-978c-6c2a0ca4d5a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Editors CPP">
+      <UniqueIdentifier>{0e642a6b-ef70-4c84-b1bf-d042e6362e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Editors CPP\Layout Editor">
+      <UniqueIdentifier>{f9209ce8-c8ee-47dc-9439-e11ce349e155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Editors CPP\Type checker">
+      <UniqueIdentifier>{af17047e-09b3-4fd7-a6a9-8a9bac167e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Editors CPP\Event Sheet Editor">
+      <UniqueIdentifier>{ed4ba3f9-9fc8-4cd4-bb8b-0bf66eb7fea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structure CPP">
+      <UniqueIdentifier>{f1087bf0-ea35-4df9-a042-ee44b2d44c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structure CPP\Export">
+      <UniqueIdentifier>{1994f108-a5d4-4fdd-8ee8-803e588e6c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bars CPP">
+      <UniqueIdentifier>{bcadd763-4b86-4851-9116-fc3705ac74a2}</UniqueIdentifier>
+      <Extensions>*.cpp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Bars CPP\Layerbar">
+      <UniqueIdentifier>{2fb4d1a6-366b-42d8-bc0a-a69fc2d1608c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bars CPP\Properties bar">
+      <UniqueIdentifier>{27b659c4-4ca8-45de-b79e-365ad98b1a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs CPP">
+      <UniqueIdentifier>{fcd13b1e-773e-4683-8e20-a221e5ce6f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs CPP\Parameters dialog">
+      <UniqueIdentifier>{9a1e8b4f-c078-447c-816f-74909f2bbd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs CPP\Event Wizard dialog">
+      <UniqueIdentifier>{75a38966-ab01-41e8-9a29-ec8e6f8765e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs CPP\Export Wizard dialog">
+      <UniqueIdentifier>{d9ee27d9-ca7e-4341-9002-0a20683d8b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs CPP\Popup dialogs">
+      <UniqueIdentifier>{92c529a0-ccc9-493a-9645-9505e419b8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs CPP\Family Manager dialog">
+      <UniqueIdentifier>{5e31e623-9ec6-4c17-b69c-46af471c461f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Languages CPP">
+      <UniqueIdentifier>{1430f7c6-f324-4e03-b815-0802ca0141d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4c2d01fd-2ea1-4aa9-8f30-0e3d3dd8459d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Tab Control H">
+      <UniqueIdentifier>{2357920d-1bfb-482c-9766-bb63036df055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs H">
+      <UniqueIdentifier>{42160a97-3124-4036-87b0-de78fd236fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs H\Picture_Editor_Crap">
+      <UniqueIdentifier>{4b2a50e7-f0fa-4bb2-89ad-de74d6350de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs H\Popup dialogs H">
+      <UniqueIdentifier>{272886eb-b4a0-4c10-b7c5-c31f27643f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs H\Family Manager dialog H">
+      <UniqueIdentifier>{7891a123-d42a-4139-ada6-6de9db608b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structure H">
+      <UniqueIdentifier>{3009e9c4-1398-4fdf-a42d-eaa4a973f834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structure H\Languages H">
+      <UniqueIdentifier>{db12ac48-e5a7-4ab6-9393-affd3088f6a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bars H">
+      <UniqueIdentifier>{9293868f-3222-4c0a-b36e-b5324966b9fa}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Editors H">
+      <UniqueIdentifier>{30db6713-85ca-4093-b1d8-d84911fc28b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Editors H\Type checker">
+      <UniqueIdentifier>{2ed2ca32-aa59-4ac6-8c6a-a6bd760cfe2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI H">
+      <UniqueIdentifier>{036a708f-ec16-4b36-933f-51de8c0a76ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI H\Preferences H">
+      <UniqueIdentifier>{88ba7fdd-7f97-4148-9673-339ccc62a3cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI H\Drag Bar H">
+      <UniqueIdentifier>{cc91a3de-7378-4670-b591-0123b1ccc1bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI H\Misc H">
+      <UniqueIdentifier>{50d701ec-f36c-447b-8f7b-16e5f2f9cc2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI H\PictureEditorStuff">
+      <UniqueIdentifier>{f3600654-cafd-4f50-9ab7-de4d12d9164c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI H\XListCtrl H">
+      <UniqueIdentifier>{f7e6882a-d84c-41ef-b695-ff8e245f727f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c24e734a-bcc1-44ad-8a92-bf5e3cb09b64}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="CxImage">
+      <UniqueIdentifier>{d2bc3b10-0e00-4e64-87f9-6892af5dba7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{54197fde-710b-4117-b5b9-48252dc7d42f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\CDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Construct Doc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Construct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\ParamScintilla.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\SaveLoad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\Controls\FlatSplitterWnd.cpp">
+      <Filter>Source Files\Tab Control CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\mfxWhlPan.cpp">
+      <Filter>Source Files\Tab Control CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\ChronoEventEditor\ActionTooltip.cpp">
+      <Filter>Source Files\UI CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\Controls\CeXDib.cpp">
+      <Filter>Source Files\UI CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\CtrlMessageBar.cpp">
+      <Filter>Source Files\UI CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\Controls\CustomTabCtrl.cpp">
+      <Filter>Source Files\UI CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\CWebUpdate.cpp">
+      <Filter>Source Files\UI CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\FECFileDialog.cpp">
+      <Filter>Source Files\UI CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\FontSize.cpp">
+      <Filter>Source Files\UI CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\JazzUpTellTaleButton.cpp">
+      <Filter>Source Files\UI CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\MDITabWnd.cpp">
+      <Filter>Source Files\UI CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\Controls\RichToolTipCtrl.cpp">
+      <Filter>Source Files\UI CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\SplitterControl.cpp">
+      <Filter>Source Files\UI CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\StackedWndCtrl.cpp">
+      <Filter>Source Files\UI CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\TelltaleButton.cpp">
+      <Filter>Source Files\UI CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\Controls\ThemeUtil.cpp">
+      <Filter>Source Files\UI CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\Settings\AutoSaveOptions.cpp">
+      <Filter>Source Files\UI CPP\Preferences CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\Settings\PrefsStatic.cpp">
+      <Filter>Source Files\UI CPP\Preferences CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\Settings\SettingsDlg.cpp">
+      <Filter>Source Files\UI CPP\Preferences CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\EditSpinSlider.cpp">
+      <Filter>Source Files\UI CPP\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\Controls\FlatToolTipCtrl.cpp">
+      <Filter>Source Files\UI CPP\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\Controls\ParamTooltipCtrl.cpp">
+      <Filter>Source Files\UI CPP\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\Controls\TitleTip.cpp">
+      <Filter>Source Files\UI CPP\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\HTML\HTMLAtom.cpp">
+      <Filter>Source Files\UI CPP\HTML CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\HTML\HTMLDrawer.cpp">
+      <Filter>Source Files\UI CPP\HTML CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\HTML\HTMLFont.cpp">
+      <Filter>Source Files\UI CPP\HTML CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\HTML\HTMLStatic.cpp">
+      <Filter>Source Files\UI CPP\HTML CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XListCtrl\AdvComboBox.cpp">
+      <Filter>Source Files\UI CPP\XListCtrl CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XListCtrl\AdvComboEdit.cpp">
+      <Filter>Source Files\UI CPP\XListCtrl CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XListCtrl\DropListBox.cpp">
+      <Filter>Source Files\UI CPP\XListCtrl CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XListCtrl\DropScrollBar.cpp">
+      <Filter>Source Files\UI CPP\XListCtrl CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XListCtrl\DropWnd.cpp">
+      <Filter>Source Files\UI CPP\XListCtrl CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XListCtrl\VisualStylesXP.cpp">
+      <Filter>Source Files\UI CPP\XListCtrl CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XListCtrl\XCombo.cpp">
+      <Filter>Source Files\UI CPP\XListCtrl CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XListCtrl\XComboList.cpp">
+      <Filter>Source Files\UI CPP\XListCtrl CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XListCtrl\XEdit.cpp">
+      <Filter>Source Files\UI CPP\XListCtrl CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XListCtrl\XHeaderCtrl.cpp">
+      <Filter>Source Files\UI CPP\XListCtrl CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XListCtrl\XListCtrl.cpp">
+      <Filter>Source Files\UI CPP\XListCtrl CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\cgfiltyp.cpp">
+      <Filter>Source Files\UI CPP\Utilities CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\CXAudio2.cpp">
+      <Filter>Source Files\UI CPP\Utilities CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\ddmgr.cpp">
+      <Filter>Source Files\UI CPP\Utilities CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\GroupListControl.cpp">
+      <Filter>Source Files\UI CPP\Utilities CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Ini.cpp">
+      <Filter>Source Files\UI CPP\Utilities CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\miscfunc.cpp">
+      <Filter>Source Files\UI CPP\Utilities CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\MP3.cpp">
+      <Filter>Source Files\UI CPP\Utilities CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Scintilla\ScintillaWnd.cpp">
+      <Filter>Source Files\UI CPP\Utilities CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Token.cpp">
+      <Filter>Source Files\UI CPP\Utilities CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Scintilla\Tokenizer.cpp">
+      <Filter>Source Files\UI CPP\Utilities CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Undo.cpp">
+      <Filter>Source Files\UI CPP\Utilities CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Wavefile.cpp">
+      <Filter>Source Files\UI CPP\Utilities CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\WebGrab.cpp">
+      <Filter>Source Files\UI CPP\Utilities CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XHTMLTree\CreateCheckboxImageList.cpp">
+      <Filter>Source Files\UI CPP\XHTMLTree CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XHTMLTree\XHtmlDraw.cpp">
+      <Filter>Source Files\UI CPP\XHTMLTree CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XHTMLTree\XHtmlDrawLink.cpp">
+      <Filter>Source Files\UI CPP\XHTMLTree CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XHTMLTree\XHtmlTree.cpp">
+      <Filter>Source Files\UI CPP\XHTMLTree CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XHTMLTree\XNamedColors.cpp">
+      <Filter>Source Files\UI CPP\XHTMLTree CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\XHTMLTree\XString.cpp">
+      <Filter>Source Files\UI CPP\XHTMLTree CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\CPictureEditor.cpp">
+      <Filter>Source Files\Editors CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\ImageEditor.cpp">
+      <Filter>Source Files\Editors CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Layout Editor - Draw.cpp">
+      <Filter>Source Files\Editors CPP\Layout Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Layout Editor - Mouse.cpp">
+      <Filter>Source Files\Editors CPP\Layout Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Layout Editor - Object.cpp">
+      <Filter>Source Files\Editors CPP\Layout Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\LayoutEditor.cpp">
+      <Filter>Source Files\Editors CPP\Layout Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Expressions\CExpression.cpp">
+      <Filter>Source Files\Editors CPP\Type checker</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\CTypeChecker.cpp">
+      <Filter>Source Files\Editors CPP\Type checker</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Expressions\ExpTree.cpp">
+      <Filter>Source Files\Editors CPP\Type checker</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\ChronoEventEditor\ChronoEventEditor.cpp">
+      <Filter>Source Files\Editors CPP\Event Sheet Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\EditorAction.cpp">
+      <Filter>Source Files\Editors CPP\Event Sheet Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\EditorCondition.cpp">
+      <Filter>Source Files\Editors CPP\Event Sheet Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\EditorEvent.cpp">
+      <Filter>Source Files\Editors CPP\Event Sheet Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\EditorParam.cpp">
+      <Filter>Source Files\Editors CPP\Event Sheet Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor - Actions.cpp">
+      <Filter>Source Files\Editors CPP\Event Sheet Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor - Bookmarks.cpp">
+      <Filter>Source Files\Editors CPP\Event Sheet Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor - Draw.cpp">
+      <Filter>Source Files\Editors CPP\Event Sheet Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor - Functions.cpp">
+      <Filter>Source Files\Editors CPP\Event Sheet Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor - Lookup.cpp">
+      <Filter>Source Files\Editors CPP\Event Sheet Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor - Mouse &amp; Keyboard.cpp">
+      <Filter>Source Files\Editors CPP\Event Sheet Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor - Right Click.cpp">
+      <Filter>Source Files\Editors CPP\Event Sheet Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editors\Event Sheet Editor\Event Sheet Editor.cpp">
+      <Filter>Source Files\Editors CPP\Event Sheet Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\CAnimation.cpp">
+      <Filter>Source Files\Structure CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\CApplication.cpp">
+      <Filter>Source Files\Structure CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\CDragObjects.cpp">
+      <Filter>Source Files\Structure CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\CFamily.cpp">
+      <Filter>Source Files\Structure CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\CImageResource.cpp">
+      <Filter>Source Files\Structure CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\CLayer.cpp">
+      <Filter>Source Files\Structure CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\CLayout.cpp">
+      <Filter>Source Files\Structure CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\CObject.cpp">
+      <Filter>Source Files\Structure CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\CObjectType.cpp">
+      <Filter>Source Files\Structure CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\GUIPersistence.cpp">
+      <Filter>Source Files\Structure CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\ObjectFunctions.cpp">
+      <Filter>Source Files\Structure CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\Resources.cpp">
+      <Filter>Source Files\Structure CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\Ribbon.cpp">
+      <Filter>Source Files\Structure CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\SystemObject.cpp">
+      <Filter>Source Files\Structure CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\Export\Export - Installer.cpp">
+      <Filter>Source Files\Structure CPP\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\Export\Export - Layout.cpp">
+      <Filter>Source Files\Structure CPP\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\Export\Export - Python.cpp">
+      <Filter>Source Files\Structure CPP\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\Export\Export.cpp">
+      <Filter>Source Files\Structure CPP\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\Export\Export_Events.cpp">
+      <Filter>Source Files\Structure CPP\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\Export\Export_Images.cpp">
+      <Filter>Source Files\Structure CPP\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\Export\Export_Resources.cpp">
+      <Filter>Source Files\Structure CPP\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\zip.cpp">
+      <Filter>Source Files\Structure CPP\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Bars\Animator Bar.cpp">
+      <Filter>Source Files\Bars CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Bars\Object Bar.cpp">
+      <Filter>Source Files\Bars CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Bars\ProjectBar.cpp">
+      <Filter>Source Files\Bars CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Bars\Propbar.cpp">
+      <Filter>Source Files\Bars CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Bars\LayerBar.cpp">
+      <Filter>Source Files\Bars CPP\Layerbar</Filter>
+    </ClCompile>
+    <ClCompile Include="Bars\LayerDlg.cpp">
+      <Filter>Source Files\Bars CPP\Layerbar</Filter>
+    </ClCompile>
+    <ClCompile Include="Bars\LayerListBox.cpp">
+      <Filter>Source Files\Bars CPP\Layerbar</Filter>
+    </ClCompile>
+    <ClCompile Include="Bars\AppProperties.cpp">
+      <Filter>Source Files\Bars CPP\Properties bar</Filter>
+    </ClCompile>
+    <ClCompile Include="Bars\PropertiesBar.cpp">
+      <Filter>Source Files\Bars CPP\Properties bar</Filter>
+    </ClCompile>
+    <ClCompile Include="Bars\PropertyChanges.cpp">
+      <Filter>Source Files\Bars CPP\Properties bar</Filter>
+    </ClCompile>
+    <ClCompile Include="Bars\PropertyItems.cpp">
+      <Filter>Source Files\Bars CPP\Properties bar</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\About Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\AddFamilyVarsDlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Array Paste Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Controls Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Edit Event Group Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Edit Grid Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Error Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Find Replace Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\First Start Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Image Editor Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Import Images Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Insert Object Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Manage Action Points Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Manage Attributes Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Manage Families Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Manage Variable Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Menu Editor Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\New Angle Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\New Behavior Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\New Comment Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\New Effect Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\New Family Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\New Transition Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\New Variable Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\NewProjectDlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Object Exchange Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Object Info Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Object Selector Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\OnFuncDlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\PicEdResizeDlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Progress Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\PythonLibs.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Script Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Template Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\UpdateDlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\UsedPluginDlg.cpp">
+      <Filter>Source Files\Dialogs CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Parameters Dialog\ParametersDlg.cpp">
+      <Filter>Source Files\Dialogs CPP\Parameters dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Parameters Dialog\ParametersDlg_Expand.cpp">
+      <Filter>Source Files\Dialogs CPP\Parameters dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Parameters Dialog\ParametersDlg_Parameters.cpp">
+      <Filter>Source Files\Dialogs CPP\Parameters dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Parameters Dialog\ParametersDlg_Scintilla.cpp">
+      <Filter>Source Files\Dialogs CPP\Parameters dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Event Wizard Dialog\Event Wizard - Filter.cpp">
+      <Filter>Source Files\Dialogs CPP\Event Wizard dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Event Wizard Dialog\Event Wizard - Steps.cpp">
+      <Filter>Source Files\Dialogs CPP\Event Wizard dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Event Wizard Dialog\Event Wizard Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP\Event Wizard dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Event Wizard Dialog\IconEdit.cpp">
+      <Filter>Source Files\Dialogs CPP\Event Wizard dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Export Wizard Dialog\Export Wizard Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP\Export Wizard dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Install Settings Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP\Export Wizard dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Popup dialogs\ACE Filter Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP\Popup dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Popup dialogs\Rotate Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP\Popup dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Popup dialogs\Snippets Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP\Popup dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Family Manager Dialog\Family Manager Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP\Family Manager dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Family Manager Dialog\FM - Behaviors.cpp">
+      <Filter>Source Files\Dialogs CPP\Family Manager dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Family Manager Dialog\FM - Effects.cpp">
+      <Filter>Source Files\Dialogs CPP\Family Manager dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Family Manager Dialog\FM - Private Variables.cpp">
+      <Filter>Source Files\Dialogs CPP\Family Manager dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Family Manager Dialog\Remove Family Variable Dlg.cpp">
+      <Filter>Source Files\Dialogs CPP\Family Manager dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure\Languages\Languages.cpp">
+      <Filter>Source Files\Languages CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Palette\ColorChooser.cpp">
+      <Filter>Header Files\Dialogs H\Picture_Editor_Crap</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Palette\ColorMixer.cpp">
+      <Filter>Header Files\Dialogs H\Picture_Editor_Crap</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Palette\palettedlg.cpp">
+      <Filter>Header Files\Dialogs H\Picture_Editor_Crap</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Palette\PaletteWnd.cpp">
+      <Filter>Header Files\Dialogs H\Picture_Editor_Crap</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Palette\ToolSettings.cpp">
+      <Filter>Header Files\Dialogs H\Picture_Editor_Crap</Filter>
+    </ClCompile>
+    <ClCompile Include="UI Elements\CaptionEditXP.cpp">
+      <Filter>Header Files\UI H\PictureEditorStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\tinyxml-2.5.3\src\tinystr.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\tinyxml-2.5.3\src\tinyxml.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\tinyxml-2.5.3\src\tinyxmlerror.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\tinyxml-2.5.3\src\tinyxmlparser.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Construct.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="LIBs\Include\Resources\resource.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Filter.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="res\about.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\addcondition.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\addtoolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\angleicons.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\animicons.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\autopan.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00004.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00005.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp12814.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ColumnHeaderEnd.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ColumnHeaderSpan.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ColumnHeaderStart.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\comment.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\commentmenu.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Construct Doc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Construct.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\custom.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\disk.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dot.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\downarrow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\event1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\event2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fs.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\GuiDefault.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\guidockbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\guidockoffice.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\guimdiicons.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hammer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon5.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon6.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_add.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_delete.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_edit.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_load.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_save.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_search.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\ID_EXT_RIBBON_FILE_MENU_EXIT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\ID_EXT_RIBBON_FILE_MENU_OPTIONS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ADV_TIP_BORDER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R1_LEFT_PART.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R1_RIGHT_PART.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R1_SIMPLE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R2_LUNA_BLUE_LEFT_PART.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R2_LUNA_BLUE_RIGHT_PART.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R2_LUNA_BLUE_SIMPLE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R2_OBSIDIAN_LEFT_PART.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R2_OBSIDIAN_RIGHT_PART.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_BUTTON_R2_OBSIDIAN_SIMPLE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_CHECK_BOX_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_CHECK_BOX_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_CHECK_BOX_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_COMBO_BOX_BUTTON_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_COMBO_BOX_BUTTON_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_COMBO_BOX_BUTTON_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_DCA_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_DCA_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_DCA_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_DCA_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_GCB_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_GCB_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_GCB_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_BORDER_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_BORDER_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_CAPTION_BK_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_CAPTION_BK_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_CAPTION_BK_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_CHECK_AREA_CHECKED_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_CHECK_AREA_CHECKED_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_CHECK_AREA_UNCHECKED_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_CHECK_AREA_UNCHECKED_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_SELECTION_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MENU_SELECTION_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRB_HV_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRB_HV_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRB_V_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRB_V_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRG_HV_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRG_HV_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRG_V_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_MRG_V_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_CLOSE_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_CLOSE_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_CLOSE_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_MAXIMIZE_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_MAXIMIZE_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_MAXIMIZE_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_MINIMIZE_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_MINIMIZE_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_MINIMIZE_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_RESTORE_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_RESTORE_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_ARR_RESTORE_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_BUTTON_BK_HOVER_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_BUTTON_BK_HOVER_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_BUTTON_BK_HOVER_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_BUTTON_BK_PRESSED_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_BUTTON_BK_PRESSED_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_BUTTON_BK_PRESSED_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_ACTIVE_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_ACTIVE_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_ACTIVE_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_ACTIVE_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_INACTIVE_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_INACTIVE_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_INACTIVE_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_NC_FRAME_INACTIVE_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_OPTIONS_PAGE_WATERMARK.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_PROGRESS_BORDER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_PROGRESS_MAIN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_QATB_BK_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_QATB_BK_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_QATB_BK_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_QATB_BK_R2_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_QATB_CEB_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_QATB_CEB_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_QATB_CEB_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RADIO_BUTTON_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RADIO_BUTTON_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RESIZING_GRIPPER_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RESIZING_GRIPPER_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RESIZING_GRIPPER_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_DOWN_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_DOWN_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_DOWN_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_MENU_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_MENU_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_MENU_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_UP_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_UP_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RGIBTN_UP_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_LARGE_SEPARATOR_HOVER_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_LARGE_SEPARATOR_HOVER_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_LARGE_SEPARATOR_PRESSED_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_LARGE_SEPARATOR_PRESSED_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_LARGE_TOP_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_LARGE_TOP_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_SMALL_LEFT_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_SMALL_LEFT_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_SMALL_RIGHT_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_BTN_PART_SMALL_RIGHT_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_COLLAPSED_ICON_FRAME_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_COLLAPSED_ICON_FRAME_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_DDA_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_DDA_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_DDA_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_FILE_BUTTON_AREA_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_FILE_BUTTON_INTERIOR_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_FILE_BUTTON_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_FILE_BUTTON_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_FILE_BUTTON_R3_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_FILE_BUTTON_R3_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_FILE_BUTTON_R3_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_HOVER_BK_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_HOVER_BK_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_HOVER_BK_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_HOVER_BK_R2_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_NORMAL_BK_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_NORMAL_BK_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_NORMAL_BK_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_NORMAL_BK_R2_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_PRESSED_BK_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_PRESSED_BK_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_PRESSED_BK_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_PRESSED_BK_R2_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_COLLAPSED_SELECTED_BK_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_HOVER_BK_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_HOVER_BK_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_HOVER_BK_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_HOVER_BK_R2_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_NORMAL_BK_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_NORMAL_BK_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_NORMAL_BK_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_GROUP_EXPANDED_NORMAL_BK_R2_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_LEFT_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_LEFT_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_LEFT_R2_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_LEFT_R3_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_LEFT_R3_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_LEFT_R3_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_RIGHT_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_RIGHT_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_RIGHT_R2_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_RIGHT_R3_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_RIGHT_R3_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_ACTIVE_RIGHT_R3_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_HT_MASK_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_HT_MASK_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_LEFT_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_LEFT_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_LEFT_R2_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_LEFT_R3_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_LEFT_R3_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_LEFT_R3_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_RIGHT_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_RIGHT_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_RIGHT_R2_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_RIGHT_R3_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_RIGHT_R3_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_NC_CORNER_INACTIVE_RIGHT_R3_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_PAGE_BK_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_PAGE_BK_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_PAGE_BK_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_PAGE_BK_R2_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_SEPARATOR_H_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_SEPARATOR_H_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_SEPARATOR_H_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_SEPARATOR_V_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_SEPARATOR_V_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_SEPARATOR_V_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_LEFT_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_LEFT_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_LEFT_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_MIDDLE_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_MIDDLE_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_MIDDLE_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_RIGHT_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_RIGHT_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_RIGHT_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_SEPARATOR_HOVER_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_SEPARATOR_HOVER_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_SEPARATOR_PRESSED_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_SEPARATOR_PRESSED_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_SOLID_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_SOLID_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RIBBON_TB_SOLID_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_BIG_BORDER_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_BIG_BORDER_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_BIG_BORDER_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_BIG_BORDER_R2_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_BIG_BORDER_R3_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_BIG_BORDER_R3_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_BIG_BORDER_R3_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_OPTION_COLD_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_OPTION_COLD_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_OPTION_HOT_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_RM_OPTION_HOT_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_DOWN_DISABLED_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_DOWN_DISABLED_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_DOWN_NORMAL_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_DOWN_NORMAL_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_UP_DISABLED_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_UP_DISABLED_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_UP_NORMAL_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ARROW_UP_NORMAL_R2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ENTIRE_BK_R1_DARK.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ENTIRE_BK_R1_LIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ENTIRE_BK_R2_LUNA_BLUE_DARK.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ENTIRE_BK_R2_LUNA_BLUE_LIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ENTIRE_BK_R2_OBSIDIAN_DARK.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ENTIRE_BK_R2_OBSIDIAN_LIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_ENTIRE_BK_R2_SILVER_DARK.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_GRIPPER_R1_HORZ.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_GRIPPER_R1_VERT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_PAGE_BK_R1_DARK.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_PAGE_BK_R1_LIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_PAGE_BK_R2_LUNA_BLUE_DARK.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_PAGE_BK_R2_LUNA_BLUE_LIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_PAGE_BK_R2_OBSIDIAN_DARK.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_PAGE_BK_R2_OBSIDIAN_LIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_PAGE_BK_R2_SILVER_DARK.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_BUTTONS_R1_HORZ.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_BUTTONS_R1_VERT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_BUTTONS_R2_HORZ_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_BUTTONS_R2_HORZ_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_BUTTONS_R2_VERT_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_BUTTONS_R2_VERT_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_GRIPPER_R2_HORZ.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_SCROLL_BAR_STACK_GRIPPER_R2_VERT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_DARK_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_DARK_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_DARK_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_DARK_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_LIGHT_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_LIGHT_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_LIGHT_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_BK_LIGHT_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_SEPARATOR_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_SEPARATOR_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_SEPARATOR_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_STATUSBAR_SEPARATOR_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_AREA_BK_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_AREA_BK_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_AREA_BK_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SEPARATOR_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SEPARATOR_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SEPARATOR_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SEPARATOR_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SHAPE_ARR_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SHAPE_ARR_LUNA_BLUE_SEL_AREA.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SHAPE_ARR_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SHAPE_ARR_OBSIDIAN_SEL_AREA.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SHAPE_ARR_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SHAPE_ARR_SILVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_TAB_SHAPE_ARR_SILVER_SEL_AREA.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_MINUS_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_MINUS_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_MINUS_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_PLUS_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_PLUS_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_PLUS_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_THUMB_R1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_THUMB_R2_LUNA_BLUE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res2007\IDB_EXT_2007_ZS_THUMB_R2_OBSIDIAN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_CUSTOM_TB_IMAGES_HI.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\ResPM\IDB_EXT_PM_16x16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\ResPM\IDB_EXT_PM_24x24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\ResPM\IDB_EXT_PM_32x32.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B1_BOTTOM.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B1_CENTER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B1_LEFT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B1_RIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B1_TAB.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B1_TOP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_BOTTOM.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_CENTER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_LEFT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_OUTER_BK_BOTTOM.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_OUTER_BK_LEFT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_OUTER_BK_RIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_OUTER_BK_TOP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_RIGHT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_TAB.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RESIZABLE_DOCK_MARKER_2005B2_TOP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_RG_CTX_MENU_IMAGES_HI.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDB_EXT_TAB_CLOSE_BTN_DEFAULT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDD_EXT_COLOR_DIALOG.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDD_EXT_ICON_EDIT_DIALOG.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDD_EXT_ICON_MOUSE_POS.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDD_EXT_ICON_SELECTION_SIZE.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDR_EXT_TOOLBAR_IED_HELPER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDR_EXT_TOOLBAR_IED_TOOLS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDR_EXT_TOOLBAR_PPW.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LIBs\Include\Resources\Res\IDR_EXT_TOOLBAR_PROPERTY_GRID.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\information.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\layer1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\layericons.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\loop.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\menuicon.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MenuIcons.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\not_equal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\number.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\objecttoolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PictureEditorToolbarMain.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\project.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\resourceicons.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\small1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SmallIcon.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\string.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\system1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\systemb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\systemtoolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\temptexture.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar_Python.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar_windows.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tools1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\trigger.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\up.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\uparrow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\zoomtoolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UI Elements\Settings\AutoSaveOptions.h">
+      <Filter>Source Files\UI CPP\Preferences CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\Settings\settingsdlg.h">
+      <Filter>Source Files\UI CPP\Preferences CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\HTML\HTMLAtom.h">
+      <Filter>Source Files\UI CPP\HTML CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\HTML\HTMLDrawer.h">
+      <Filter>Source Files\UI CPP\HTML CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\HTML\HTMLFont.h">
+      <Filter>Source Files\UI CPP\HTML CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\HTML\HTMLStatic.h">
+      <Filter>Source Files\UI CPP\HTML CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\grouplistctrl.h">
+      <Filter>Source Files\UI CPP\Utilities CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Editors\Event Sheet Editor\Event Sheet Editor.h">
+      <Filter>Source Files\Editors CPP\Event Sheet Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\Export\Export.h">
+      <Filter>Source Files\Structure CPP\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Export Wizard Dialog\Export Wizard Dlg.h">
+      <Filter>Source Files\Dialogs CPP\Export Wizard dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Construct Doc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Construct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\PythonLibs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBs\Include\Resources\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Editors\Scintilla\ScintillaWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\mfxWhlPan.h">
+      <Filter>Header Files\Tab Control H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\ruler.h">
+      <Filter>Header Files\Tab Control H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\Schemadef.h">
+      <Filter>Header Files\Tab Control H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\ThemeUtil.h">
+      <Filter>Header Files\Tab Control H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\Tmschema.h">
+      <Filter>Header Files\Tab Control H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\AboutDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\AddCommentDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\AddFamilyVarsDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\AddVariableDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\AngleDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\arraypastedlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\AttributesManagerDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlsDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\EditEventGroup.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\EditGridDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Event Wizard Dialog\EventWizardDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\ExchangeDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\FindReplaceDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstStartDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\ImageEditorDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\ImportImagesDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Insert Object Dlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Install Settings Dlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\ManageActionPointsDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\ManageFamiliesDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\ManageVariableDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\MenuEditorDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\NewContainerDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\NewEventSheetDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\NewFamilyDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\NewHLSLDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\NewProjectDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\NewTransitionDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Object Info Dlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\ObjectSelector.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\OnFuncDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\ParametersDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\PicEdResizeDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\ProgressDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\ScriptDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsDlgSrc\SettingsDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\TemplateDialog.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\UpdateDlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Used Plugins Dlg.h">
+      <Filter>Header Files\Dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Palette\ColorChooser.h">
+      <Filter>Header Files\Dialogs H\Picture_Editor_Crap</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Palette\colormixer.h">
+      <Filter>Header Files\Dialogs H\Picture_Editor_Crap</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Palette\palettedlg.h">
+      <Filter>Header Files\Dialogs H\Picture_Editor_Crap</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Palette\PaletteWnd.h">
+      <Filter>Header Files\Dialogs H\Picture_Editor_Crap</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Palette\ToolSettings.h">
+      <Filter>Header Files\Dialogs H\Picture_Editor_Crap</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Popup dialogs\ACE Filter Dlg.h">
+      <Filter>Header Files\Dialogs H\Popup dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Popup dialogs\Rotate Dlg.h">
+      <Filter>Header Files\Dialogs H\Popup dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Popup dialogs\Snippets Dlg.h">
+      <Filter>Header Files\Dialogs H\Popup dialogs H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Family Manager Dialog\Family Manager Dlg.h">
+      <Filter>Header Files\Dialogs H\Family Manager dialog H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Family Manager Dialog\FM - Behaviors.h">
+      <Filter>Header Files\Dialogs H\Family Manager dialog H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Family Manager Dialog\FM - Effects.h">
+      <Filter>Header Files\Dialogs H\Family Manager dialog H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Family Manager Dialog\FM - Private Variables.h">
+      <Filter>Header Files\Dialogs H\Family Manager dialog H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Family Manager Dialog\Remove Family Variable Dlg.h">
+      <Filter>Header Files\Dialogs H\Family Manager dialog H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\CAnimation.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\CApplication.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\CContainer.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\CDragObjects.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\CFamily.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\CImageResource.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\CLayer.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\CLayout.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\CMovement.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\CObject.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\CObjectType.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\CPlugin.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\CTransition.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\Effect.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\EventSheet.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\GUIPersistence.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\ObjectFunctions.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\Resources.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\Ribbon.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\SDKDefs.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\SystemObject.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VEdittime.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VRuntime.h">
+      <Filter>Header Files\Structure H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\Languages\Languages - Application Properties.h">
+      <Filter>Header Files\Structure H\Languages H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\Languages\Languages - Bars.h">
+      <Filter>Header Files\Structure H\Languages H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\Languages\Languages - Dialogs.h">
+      <Filter>Header Files\Structure H\Languages H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\Languages\Languages - Editors.h">
+      <Filter>Header Files\Structure H\Languages H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\Languages\Languages - Layer Properties.h">
+      <Filter>Header Files\Structure H\Languages H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\Languages\Languages - Layout Properties.h">
+      <Filter>Header Files\Structure H\Languages H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\Languages\Languages - Properties.h">
+      <Filter>Header Files\Structure H\Languages H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\Languages\Languages - Ribbon.h">
+      <Filter>Header Files\Structure H\Languages H</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\Languages\Languages.h">
+      <Filter>Header Files\Structure H\Languages H</Filter>
+    </ClInclude>
+    <ClInclude Include="Bars\Animator Bar.h">
+      <Filter>Header Files\Bars H</Filter>
+    </ClInclude>
+    <ClInclude Include="Bars\LayerBar.h">
+      <Filter>Header Files\Bars H</Filter>
+    </ClInclude>
+    <ClInclude Include="Bars\Object Bar.h">
+      <Filter>Header Files\Bars H</Filter>
+    </ClInclude>
+    <ClInclude Include="Bars\ProjectBar.h">
+      <Filter>Header Files\Bars H</Filter>
+    </ClInclude>
+    <ClInclude Include="Bars\Propbar.h">
+      <Filter>Header Files\Bars H</Filter>
+    </ClInclude>
+    <ClInclude Include="Bars\PropertiesBar.h">
+      <Filter>Header Files\Bars H</Filter>
+    </ClInclude>
+    <ClInclude Include="Editors\ChronoEventEditor\ChronoEventEditor.h">
+      <Filter>Header Files\Editors H</Filter>
+    </ClInclude>
+    <ClInclude Include="Editors\CPictureEditor.h">
+      <Filter>Header Files\Editors H</Filter>
+    </ClInclude>
+    <ClInclude Include="Editors\EditorAction.h">
+      <Filter>Header Files\Editors H</Filter>
+    </ClInclude>
+    <ClInclude Include="Editors\EditorCondition.h">
+      <Filter>Header Files\Editors H</Filter>
+    </ClInclude>
+    <ClInclude Include="Editors\EditorEvent.h">
+      <Filter>Header Files\Editors H</Filter>
+    </ClInclude>
+    <ClInclude Include="Editors\EditorParam.h">
+      <Filter>Header Files\Editors H</Filter>
+    </ClInclude>
+    <ClInclude Include="Editors\EventSheetEditor.h">
+      <Filter>Header Files\Editors H</Filter>
+    </ClInclude>
+    <ClInclude Include="Editors\ImageEditor.h">
+      <Filter>Header Files\Editors H</Filter>
+    </ClInclude>
+    <ClInclude Include="Editors\LayoutEditor.h">
+      <Filter>Header Files\Editors H</Filter>
+    </ClInclude>
+    <ClInclude Include="Editors\Expressions\CExpression.h">
+      <Filter>Header Files\Editors H\Type checker</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\CTypeChecker.h">
+      <Filter>Header Files\Editors H\Type checker</Filter>
+    </ClInclude>
+    <ClInclude Include="Editors\Expressions\ExpTree.h">
+      <Filter>Header Files\Editors H\Type checker</Filter>
+    </ClInclude>
+    <ClInclude Include="Editors\ChronoEventEditor\ActionTooltip.h">
+      <Filter>Header Files\UI H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\anchor.h">
+      <Filter>Header Files\UI H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\CWebUpdate.h">
+      <Filter>Header Files\UI H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\dlgman.h">
+      <Filter>Header Files\UI H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\EditTreeCtrl.h">
+      <Filter>Header Files\UI H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\EditTreeCtrlEx.h">
+      <Filter>Header Files\UI H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FECFileDialog.h">
+      <Filter>Header Files\UI H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\ParamScintilla.h">
+      <Filter>Header Files\UI H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\Controls\RichToolTipCtrl.h">
+      <Filter>Header Files\UI H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\SplitterControl.h">
+      <Filter>Header Files\UI H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\stackedwndctrl.h">
+      <Filter>Header Files\UI H</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\PreferencesDlg.h">
+      <Filter>Header Files\UI H\Preferences H</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsDlgSrc\PrefsStatic.h">
+      <Filter>Header Files\UI H\Preferences H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\scbarcf.h">
+      <Filter>Header Files\UI H\Drag Bar H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\scbarg.h">
+      <Filter>Header Files\UI H\Drag Bar H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\sizecbar.h">
+      <Filter>Header Files\UI H\Drag Bar H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\EditSpinSlider.h">
+      <Filter>Header Files\UI H\Misc H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\Controls\FlatSplitterWnd.h">
+      <Filter>Header Files\UI H\Misc H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\func.h">
+      <Filter>Header Files\UI H\Misc H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\Controls\TitleTip.h">
+      <Filter>Header Files\UI H\Misc H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\captioneditxp.h">
+      <Filter>Header Files\UI H\PictureEditorStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\XListCtrl\AdvComboBox.h">
+      <Filter>Header Files\UI H\XListCtrl H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\XListCtrl\AdvComboEdit.h">
+      <Filter>Header Files\UI H\XListCtrl H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\XListCtrl\DropListBox.h">
+      <Filter>Header Files\UI H\XListCtrl H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\XListCtrl\DropScrollBar.h">
+      <Filter>Header Files\UI H\XListCtrl H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\XListCtrl\DropWnd.h">
+      <Filter>Header Files\UI H\XListCtrl H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\XListCtrl\MemDC.h">
+      <Filter>Header Files\UI H\XListCtrl H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\XListCtrl\SortCStringArray.h">
+      <Filter>Header Files\UI H\XListCtrl H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\XListCtrl\VisualStylesXP.h">
+      <Filter>Header Files\UI H\XListCtrl H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\XListCtrl\XCombo.h">
+      <Filter>Header Files\UI H\XListCtrl H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\XListCtrl\XComboList.h">
+      <Filter>Header Files\UI H\XListCtrl H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\XListCtrl\XEdit.h">
+      <Filter>Header Files\UI H\XListCtrl H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\XListCtrl\XHeaderCtrl.h">
+      <Filter>Header Files\UI H\XListCtrl H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\XListCtrl\XListCtrl.h">
+      <Filter>Header Files\UI H\XListCtrl H</Filter>
+    </ClInclude>
+    <ClInclude Include="UI Elements\XListCtrl\XTrace.h">
+      <Filter>Header Files\UI H\XListCtrl H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\CxImage\CxImage\ximage.h">
+      <Filter>CxImage</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\tinyxml-2.5.3\include\tinystr.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\tinyxml-2.5.3\include\tinyxml.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Construct.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cur00001.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\default1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fpoint.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_ARROW_INVERTED_H.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_BIG_X_CROSS.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_BLACK_ARROW_BOTTOM.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_BLACK_ARROW_LEFT.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_BLACK_ARROW_RIGHT.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_BLACK_ARROW_TOP.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_BLACK_FINGER.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_BLACK_HAND.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_CMD_COPY.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_CMD_DELETE.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_CMD_MOVE.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_HAND.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_HOLLOW_CROSS_NORMAL.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_HOLLOW_CROSS_SMALL.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_ALL.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_BOTTOM.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_BOTTOM_LEFT.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_BOTTOM_RIGHT.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_HORZ.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_LEFT.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_RIGHT.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_TOP.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_TOP_LEFT.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_TOP_RIGHT.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_PAN_VERT.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_RESIZE_H1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_RESIZE_H2.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_RESIZE_V1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_RESIZE_V2.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_SUPPRESS.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_SUPPRESS_ARROW.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_ZOOM_HOLLOW.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_ZOOM_MINUS.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_EXT_ZOOM_PLUS.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_AIRBRUSH.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_BRUSH.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_CP.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_ELLIPSE.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_FILL.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_LINE.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_MAGNIFY.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_PENCIL.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_RECT.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_RR.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LIBs\Include\Resources\Res\IDC_IED_TOOL_RS.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_all.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_down.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_downfast.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_downleft.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_downleftfast.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_downright.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_downrightfast.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_left.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_leftfast.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_leftright.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_right.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_rightfast.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_up.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_updown.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_upfast.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_upleft.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_upleftfast.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_upright.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pan_uprightfast.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PicEd Brush.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PicEd Cross.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PicEd Erase.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PicEd Fill.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PicEd Pen.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\png1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\runtime1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\spliter.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

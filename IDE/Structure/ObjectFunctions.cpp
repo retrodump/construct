@@ -3,6 +3,8 @@
 
 #include "StdAfx.h"
 #include "ObjectFunctions.h"
+#include <stdexcept>
+#include "../Structure.h"
 
 extern CPluginMap g_Plugins;
 
@@ -20,7 +22,7 @@ const CPlugin& GetPlugin(int ID)
 
 	CString msg;
 	msg.Format("An invalid plugin was referenced (#%d)", ID);
-	throw runtime_error((const char*)msg);
+	throw std::runtime_error::runtime_error((const char*)msg);
 }
 
 // Get plugin information by file name

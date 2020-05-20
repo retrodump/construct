@@ -18,7 +18,7 @@ void SerializeClassPadding(int NumberStrings, int NumberInts, CArchive& Ar);
 // Get common virtual editInfo
 #include "Structure\SDKDefs.h"
 #include "..\Common\bin.h"	// bin class for binary management
-#include "CPlugin.h"
+#include "Structure\CPlugin.h"
 
 // Global allocator for edittime bin usage
 class edittime_allocator : public bin_allocator {

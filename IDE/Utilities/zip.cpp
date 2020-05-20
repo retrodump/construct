@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "../stdafx.h"
 #include <stdio.h>
 #include <tchar.h>
 #include "zip.h"
@@ -2035,10 +2035,6 @@ int putend(int n, ulg s, ulg c, extent m, char *z, WRITEFUNC wfunc, void *param)
 }
 
 
-
-
-
-
 const ulg crc_table[256] = {
   0x00000000L, 0x77073096L, 0xee0e612cL, 0x990951baL, 0x076dc419L,
   0x706af48fL, 0xe963a535L, 0x9e6495a3L, 0x0edb8832L, 0x79dcb8a4L,
@@ -2124,10 +2120,6 @@ char zencode(unsigned long *keys, char c)
   update_keys(keys,c);
   return (char)(t^c);
 }
-
-
-
-
 
 
 
@@ -2827,4 +2819,3 @@ bool IsZipHandleZ(HZIP hz)
   TZipHandleData *han = (TZipHandleData*)hz;
   return (han->flag==2);
 }
-

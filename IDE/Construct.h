@@ -15,6 +15,7 @@
 #include "resource.h"       // main symbols
 
 #include "Structure.h"
+#include "../Common/sdkdefs.h"
 
 /////////////////////////////////////////////////////////////////////////////
 // Construct:

@@ -1,6 +1,6 @@
 
 // File includes
-#include "StdAfx.h"
+#include "..\StdAfx.h"
 #include "..\Construct.h"
 #include "..\Construct Doc.h"
 #include "..\Bars\LayerBar.h"
@@ -24,6 +24,7 @@
 #include "..\UI Elements\XHTMLTree\XHTMLTree.h"
 #include "..\Dialogs\ControlsDlg.h"
 #include "..\Utilities\Helper.h"
+#include <stdexcept>
 
 extern CMainFrame* pMainWnd;
 

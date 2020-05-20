@@ -119,6 +119,7 @@ typedef struct ACESEntry ACESEntry2;
 };*/
 
 #include "..\..\..\Common\PropReturn.hpp"
+#include "../../Common/sdkdefs.h"
 
 // Micro edittime tool
 class MicroPropertyVector : public MicroEdittime {
