@@ -5,7 +5,7 @@
 // Main file
 
 // File includes
-#include "StdAfx.h"
+#include "..\..\StdAfx.h"
 #include "..\..\Construct.h"
 #include "..\ParametersDlg.h"
 extern CMainFrame* g_MainFrame;

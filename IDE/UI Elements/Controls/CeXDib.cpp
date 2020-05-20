@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "..\..\stdafx.h"
 #include "CeXDib.h"
 
 #ifndef _MFC_VER

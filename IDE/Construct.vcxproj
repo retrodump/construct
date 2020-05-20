@@ -90,8 +90,8 @@
     <IntDir>$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <GenerateManifest>true</GenerateManifest>
-    <IncludePath>$(VC_IncludePath);$(DXSDK_DIR)Include$(IncludePath)</IncludePath>
-    <LibraryPath>$(DXSDK_DIR)Lib\x86$(LibraryPath);$(DXSDK_DIR)Lib\x64$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath);$(DXSDK_DIR)Include;$(VC_IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath);$(DXSDK_DIR)Lib\x86</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>

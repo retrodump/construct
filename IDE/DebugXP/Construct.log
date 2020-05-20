@@ -1,8 +1,979 @@
-﻿  Template Dlg.cpp
+﻿  StdAfx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+cl : command line warning D9035:    Automatically linking with Prof-UIS library: ProfUIS284ym.lib
+cl : command line warning D9035:       (Professional User Interface Suite)
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtPaintManager.h(284): warning C4091: 'typedef ': ignored on left of 'CExtUxTheme::__EXT_UX_THEMESIZE' when no variable is declared
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtPaintManager.h(307): warning C4091: 'typedef ': ignored on left of 'CExtUxTheme::__EXT_UX_PROPERTYORIGIN' when no variable is declared
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtPaintManager.h(1445): warning C4091: 'typedef ': ignored on left of 'CExtDWM::__EXT_DWMWINDOWATTRIBUTE' when no variable is declared
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBs\Include\ExtPaintManager.h(1453): warning C4091: 'typedef ': ignored on left of 'CExtDWM::__EXT_DWMNCRENDERINGPOLICY' when no variable is declared
+  zip.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(83): warning C4603: 'ZE_MISS': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(83): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(84): warning C4603: 'ZE_OK': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(84): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(85): warning C4603: 'ZE_EOF': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(85): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(86): warning C4603: 'ZE_FORM': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(86): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(87): warning C4603: 'ZE_MEM': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(87): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(88): warning C4603: 'ZE_LOGIC': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(88): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(89): warning C4603: 'ZE_BIG': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(89): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(90): warning C4603: 'ZE_NOTE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(90): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(91): warning C4603: 'ZE_TEST': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(91): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(92): warning C4603: 'ZE_ABORT': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(92): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(93): warning C4603: 'ZE_TEMP': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(93): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(94): warning C4603: 'ZE_READ': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(94): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(95): warning C4603: 'ZE_NONE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(95): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(96): warning C4603: 'ZE_NAME': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(96): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(97): warning C4603: 'ZE_WRITE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(97): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(98): warning C4603: 'ZE_CREAT': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(98): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(99): warning C4603: 'ZE_PARMS': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(99): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(100): warning C4603: 'ZE_OPEN': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(100): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(101): warning C4603: 'ZE_MAXERR': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(101): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(105): warning C4603: 'UNKNOWN': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(105): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(106): warning C4603: 'BINARY': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(106): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(107): warning C4603: 'ASCII': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(107): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(109): warning C4603: 'BEST': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(109): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(110): warning C4603: 'STORE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(110): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(111): warning C4603: 'DEFLATE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(111): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(113): warning C4603: 'CRCVAL_INITIAL': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(113): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(116): warning C4603: 'MSDOS_HIDDEN_ATTR': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(116): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(117): warning C4603: 'MSDOS_DIR_ATTR': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(117): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(120): warning C4603: 'LOCHEAD': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(120): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(121): warning C4603: 'CENHEAD': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(121): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(122): warning C4603: 'ENDHEAD': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(122): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(125): warning C4603: 'EB_HEADSIZE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(125): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(126): warning C4603: 'EB_LEN': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(126): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(127): warning C4603: 'EB_UT_MINLEN': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(127): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(128): warning C4603: 'EB_UT_FLAGS': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(128): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(129): warning C4603: 'EB_UT_TIME1': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(129): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(130): warning C4603: 'EB_UT_FL_MTIME': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(130): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(131): warning C4603: 'EB_UT_FL_ATIME': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(131): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(132): warning C4603: 'EB_UT_FL_CTIME': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(132): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(133): warning C4603: 'EB_UT_LEN': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(133): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(134): warning C4603: 'EB_L_UT_SIZE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(134): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(135): warning C4603: 'EB_C_UT_SIZE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(135): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(139): warning C4603: 'PUTSH': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(139): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(140): warning C4603: 'PUTLG': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(140): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(145): warning C4603: 'LOCSIG': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(145): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(146): warning C4603: 'CENSIG': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(146): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(147): warning C4603: 'ENDSIG': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(147): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(148): warning C4603: 'EXTLOCSIG': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(148): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(151): warning C4603: 'MIN_MATCH': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(151): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(152): warning C4603: 'MAX_MATCH': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(152): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(156): warning C4603: 'WSIZE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(156): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(162): warning C4603: 'MIN_LOOKAHEAD': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(162): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(167): warning C4603: 'MAX_DIST': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(167): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(173): warning C4603: 'ZIP_HANDLE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(173): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(174): warning C4603: 'ZIP_FILENAME': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(174): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(175): warning C4603: 'ZIP_MEMORY': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(175): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(176): warning C4603: 'ZIP_FOLDER': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(176): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(184): warning C4603: 'MAX_BITS': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(184): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(187): warning C4603: 'MAX_BL_BITS': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(187): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(190): warning C4603: 'LENGTH_CODES': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(190): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(193): warning C4603: 'LITERALS': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(193): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(196): warning C4603: 'END_BLOCK': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(196): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(199): warning C4603: 'L_CODES': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(199): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(202): warning C4603: 'D_CODES': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(202): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(205): warning C4603: 'BL_CODES': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(205): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(209): warning C4603: 'STORED_BLOCK': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(209): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(210): warning C4603: 'STATIC_TREES': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(210): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(211): warning C4603: 'DYN_TREES': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(211): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(214): warning C4603: 'LIT_BUFSIZE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(214): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(215): warning C4603: 'DIST_BUFSIZE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(215): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(237): warning C4603: 'REP_3_6': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(237): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(240): warning C4603: 'REPZ_3_10': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(240): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(243): warning C4603: 'REPZ_11_138': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(243): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(246): warning C4603: 'HEAP_SIZE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(246): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(254): warning C4603: 'Buf_size': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(254): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(264): warning C4603: 'PUTSHORT': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(264): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(270): warning C4603: 'PUTBYTE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(270): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(274): warning C4603: 'HASH_BITS': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(274): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(277): warning C4603: 'HASH_SIZE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(277): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(278): warning C4603: 'HASH_MASK': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(278): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(279): warning C4603: 'WMASK': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(279): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(282): warning C4603: 'NIL': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(282): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(285): warning C4603: 'FAST': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(285): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(286): warning C4603: 'SLOW': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(286): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(289): warning C4603: 'TOO_FAR': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(289): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(294): warning C4603: 'EQUAL': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(294): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(301): warning C4603: 'H_SHIFT': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(301): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(307): warning C4603: 'max_insert_length': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(307): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(631): warning C4603: 'send_code': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(631): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(639): warning C4603: 'd_code': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(639): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(643): warning C4603: 'Max': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(643): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(740): warning C4603: 'SMALLEST': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(740): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(753): warning C4603: 'pqremove': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(753): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(761): warning C4603: 'smaller': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(761): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(1486): warning C4603: 'UPDATE_HASH': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(1486): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(1499): warning C4603: 'INSERT_STRING': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(1499): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(1660): warning C4603: 'check_match': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(1660): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(1762): warning C4603: 'FLUSH_BLOCK': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(1762): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2093): warning C4603: 'CRC32': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2093): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2094): warning C4603: 'DO1': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2094): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2095): warning C4603: 'DO2': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2095): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2096): warning C4603: 'DO4': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2096): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2097): warning C4603: 'DO8': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2097): message : Add macro to precompiled header instead of defining here
+  WebGrab.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\zip.cpp(2823): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\WebGrab.cpp(32): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\WebGrab.cpp(32): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\WebGrab.cpp(497): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\WebGrab.cpp(37): warning C4603: 'BUFFER_SIZE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\WebGrab.cpp(37): message : Add macro to precompiled header instead of defining here
+  Wavefile.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\WebGrab.cpp(497): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Wavefile.cpp(22): warning C4603: 'SAFE_DELETE_ARRAY': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Wavefile.cpp(22): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Wavefile.cpp(585): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Wavefile.cpp(23): warning C4603: 'SAFE_DELETE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Wavefile.cpp(23): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Wavefile.cpp(585): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Wavefile.cpp(24): warning C4603: 'DXTRACE_ERR': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Wavefile.cpp(24): message : Add macro to precompiled header instead of defining here
+  Undo.cpp
+  Token.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Wavefile.cpp(585): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Token.cpp(33): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Token.cpp(33): message : Add macro to precompiled header instead of defining here
+  SplitterControl.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Token.cpp(103): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\SplitterControl.cpp(8): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\SplitterControl.cpp(8): message : Add macro to precompiled header instead of defining here
+  ToolSettings.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\SplitterControl.cpp(349): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ToolSettings.cpp(13): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ToolSettings.cpp(13): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ToolSettings.cpp(356): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ToolSettings.cpp(71): warning C4603: 'SHOW': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ToolSettings.cpp(71): message : Add macro to precompiled header instead of defining here
+  PaletteWnd.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ToolSettings.cpp(356): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\PaletteWnd.cpp(29): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\PaletteWnd.cpp(29): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\PaletteWnd.cpp(633): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\PaletteWnd.cpp(34): warning C4603: 'BTN_SIZE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\PaletteWnd.cpp(34): message : Add macro to precompiled header instead of defining here
+  palettedlg.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\PaletteWnd.cpp(633): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\palettedlg.cpp(9): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\palettedlg.cpp(9): message : Add macro to precompiled header instead of defining here
+  ColorMixer.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\palettedlg.cpp(320): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(11): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(11): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(793): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(15): warning C4603: 'DAVOSPECIALCOLOUR': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(15): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(793): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(20): warning C4603: 'HLS': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(20): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(793): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(23): warning C4603: 'HLS_H': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(23): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(793): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(24): warning C4603: 'HLS_L': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(24): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(793): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(25): warning C4603: 'HLS_S': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(25): message : Add macro to precompiled header instead of defining here
+  ColorChooser.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorMixer.cpp(793): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(28): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(28): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(225): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(34): warning C4603: 'ID_TAB_WND': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(34): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(225): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(35): warning C4603: 'ID_PALETTE_WND': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(35): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(225): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(36): warning C4603: 'ID_WEBCOLOR_WND': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(36): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(225): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(37): warning C4603: 'ID_SYSCOLOR_WND': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(37): message : Add macro to precompiled header instead of defining here
+  MP3.cpp
+  miscfunc.cpp
+  Ini.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Palette\ColorChooser.cpp(225): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Ini.cpp(45): warning C4603: 'DEF_PROFILE_NUM_LEN': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Ini.cpp(45): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Ini.cpp(1095): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Ini.cpp(46): warning C4603: 'DEF_PROFILE_THRESHOLD': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Ini.cpp(46): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Ini.cpp(1095): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Ini.cpp(47): warning C4603: 'DEF_PROFILE_DELIMITER': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Ini.cpp(47): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Ini.cpp(1095): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Ini.cpp(48): warning C4603: 'DEF_PROFILE_TESTSTRING': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Ini.cpp(48): message : Add macro to precompiled header instead of defining here
+  Helper.cpp
+  FECFileDialog.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\Ini.cpp(1095): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\FECFileDialog.cpp(9): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\FECFileDialog.cpp(9): message : Add macro to precompiled header instead of defining here
+  ddmgr.cpp
+  CXAudio2.cpp
+  CWebUpdate.cpp
+  cgfiltyp.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\FECFileDialog.cpp(233): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\cgfiltyp.cpp(22): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\cgfiltyp.cpp(22): message : Add macro to precompiled header instead of defining here
+  Generating Code...
+  Compiling...
+  XListCtrl.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Utilities\cgfiltyp.cpp(309): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XListCtrl.cpp(31): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XListCtrl.cpp(31): message : Add macro to precompiled header instead of defining here
+  XHeaderCtrl.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XListCtrl.cpp(2707): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XHeaderCtrl.cpp(26): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XHeaderCtrl.cpp(26): message : Add macro to precompiled header instead of defining here
+  XEdit.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XHeaderCtrl.cpp(533): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XEdit.cpp(8): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XEdit.cpp(8): message : Add macro to precompiled header instead of defining here
+  XComboList.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XEdit.cpp(185): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XComboList.cpp(19): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XComboList.cpp(19): message : Add macro to precompiled header instead of defining here
+  XCombo.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XComboList.cpp(410): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XCombo.cpp(8): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XCombo.cpp(8): message : Add macro to precompiled header instead of defining here
+  VisualStylesXP.cpp
+  DropWnd.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\XCombo.cpp(74): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\DropWnd.cpp(29): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\DropWnd.cpp(29): message : Add macro to precompiled header instead of defining here
+  DropScrollBar.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\DropWnd.cpp(555): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\DropScrollBar.cpp(27): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\DropScrollBar.cpp(27): message : Add macro to precompiled header instead of defining here
+  DropListBox.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\DropScrollBar.cpp(184): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\DropListBox.cpp(27): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\DropListBox.cpp(27): message : Add macro to precompiled header instead of defining here
+  AdvComboEdit.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\DropListBox.cpp(342): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\AdvComboEdit.cpp(8): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\AdvComboEdit.cpp(8): message : Add macro to precompiled header instead of defining here
+  AdvComboBox.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\AdvComboEdit.cpp(49): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\AdvComboBox.cpp(27): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\AdvComboBox.cpp(27): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\AdvComboBox.cpp(2224): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\AdvComboBox.cpp(32): warning C4603: 'IDC_COMBOEDIT': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\AdvComboBox.cpp(32): message : Add macro to precompiled header instead of defining here
+  XHtmlTree.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XListCtrl\AdvComboBox.cpp(2224): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XHTMLTree\XHtmlTree.cpp(46): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XHTMLTree\XHtmlTree.cpp(46): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XHTMLTree\XHtmlTree.cpp(5000): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XHTMLTree\XHtmlTree.cpp(53): warning C4603: '__noop': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XHTMLTree\XHtmlTree.cpp(53): message : Add macro to precompiled header instead of defining here
+  XHtmlDrawLink.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XHTMLTree\XHtmlTree.cpp(5000): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XHTMLTree\XHtmlDrawLink.cpp(40): warning C4603: '__noop': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XHTMLTree\XHtmlDrawLink.cpp(40): message : Add macro to precompiled header instead of defining here
+  CreateCheckboxImageList.cpp
+  TelltaleButton.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\XHTMLTree\XHtmlDrawLink.cpp(327): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\TelltaleButton.cpp(8): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\TelltaleButton.cpp(8): message : Add macro to precompiled header instead of defining here
+  StackedWndCtrl.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\TelltaleButton.cpp(38): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\StackedWndCtrl.cpp(12): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\StackedWndCtrl.cpp(12): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\StackedWndCtrl.cpp(596): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\StackedWndCtrl.cpp(169): warning C4603: 'STACK_SPACE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\StackedWndCtrl.cpp(169): message : Add macro to precompiled header instead of defining here
+  SettingsDlg.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\StackedWndCtrl.cpp(596): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Settings\SettingsDlg.cpp(10): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Settings\SettingsDlg.cpp(10): message : Add macro to precompiled header instead of defining here
+  PrefsStatic.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Settings\SettingsDlg.cpp(660): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Settings\PrefsStatic.cpp(8): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Settings\PrefsStatic.cpp(8): message : Add macro to precompiled header instead of defining here
+  AutoSaveOptions.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Settings\PrefsStatic.cpp(220): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Settings\AutoSaveOptions.cpp(9): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Settings\AutoSaveOptions.cpp(9): message : Add macro to precompiled header instead of defining here
+  ParamScintilla.cpp
+  Generating Code...
+  Compiling...
+  mfxWhlPan.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Settings\AutoSaveOptions.cpp(122): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\mfxWhlPan.cpp(11): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\mfxWhlPan.cpp(11): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\mfxWhlPan.cpp(570): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\mfxWhlPan.cpp(16): warning C4603: 'TIMER_DELAY_MS': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\mfxWhlPan.cpp(16): message : Add macro to precompiled header instead of defining here
+  MDITabWnd.cpp
+  JazzUpTellTaleButton.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\mfxWhlPan.cpp(570): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\JazzUpTellTaleButton.cpp(9): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\JazzUpTellTaleButton.cpp(9): message : Add macro to precompiled header instead of defining here
+  HTMLStatic.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\JazzUpTellTaleButton.cpp(102): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLStatic.cpp(28): warning C4603: 'WMT_TIMER': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLStatic.cpp(28): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLStatic.cpp(293): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLStatic.cpp(31): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLStatic.cpp(31): message : Add macro to precompiled header instead of defining here
+  HTMLFont.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLStatic.cpp(293): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLFont.cpp(14): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLFont.cpp(14): message : Add macro to precompiled header instead of defining here
+  HTMLDrawer.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLFont.cpp(129): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLDrawer.cpp(22): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLDrawer.cpp(22): message : Add macro to precompiled header instead of defining here
+  HTMLAtom.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLDrawer.cpp(1417): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLAtom.cpp(14): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLAtom.cpp(14): message : Add macro to precompiled header instead of defining here
+  GroupListControl.cpp
+  FontSize.cpp
+  EditSpinSlider.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\HTML\HTMLAtom.cpp(53): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\EditSpinSlider.cpp(11): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\EditSpinSlider.cpp(11): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\EditSpinSlider.cpp(552): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\EditSpinSlider.cpp(60): warning C4603: 'HLINE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\EditSpinSlider.cpp(60): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\EditSpinSlider.cpp(552): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\EditSpinSlider.cpp(61): warning C4603: 'DRAWARROWUP': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\EditSpinSlider.cpp(61): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\EditSpinSlider.cpp(552): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\EditSpinSlider.cpp(62): warning C4603: 'DRAWARROWDOWN': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\EditSpinSlider.cpp(62): message : Add macro to precompiled header instead of defining here
+  CtrlMessageBar.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\EditSpinSlider.cpp(552): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\CtrlMessageBar.cpp(40): warning C4603: 'ID_TOOLTIP': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\CtrlMessageBar.cpp(40): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\CtrlMessageBar.cpp(669): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\CtrlMessageBar.cpp(43): warning C4603: 'WM_QUERYAFXWNDPROC': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\CtrlMessageBar.cpp(43): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\CtrlMessageBar.cpp(669): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\CtrlMessageBar.cpp(552): warning C4603: 'TME_NONCLIENT': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\CtrlMessageBar.cpp(552): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\CtrlMessageBar.cpp(669): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\CtrlMessageBar.cpp(555): warning C4603: 'TrackMouseEvent': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\CtrlMessageBar.cpp(555): message : Add macro to precompiled header instead of defining here
+  TitleTip.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\CtrlMessageBar.cpp(669): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\TitleTip.cpp(17): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\TitleTip.cpp(17): message : Add macro to precompiled header instead of defining here
+  ThemeUtil.cpp
+  RichToolTipCtrl.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\TitleTip.cpp(437): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(147,1): warning C4005: 'DWORD_COOKIE': macro redefinition
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(145): message : see previous definition of 'DWORD_COOKIE'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(46): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(46): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(524): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(58): warning C4603: 'COMPILE_MULTIMON_STUBS': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(58): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(524): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(70): warning C4603: 'TTP_STANDARD': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(70): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(524): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(73): warning C4603: 'TTSS_NORMAL': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(73): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(524): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(145): warning C4603: 'DWORD_COOKIE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(145): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(524): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(147): warning C4603: 'DWORD_COOKIE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(147): message : Add macro to precompiled header instead of defining here
+  ParamTooltipCtrl.cpp
+  FlatToolTipCtrl.cpp
+  FlatSplitterWnd.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\RichToolTipCtrl.cpp(524): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(23): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(23): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(550): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(31): warning C4603: 'FOCUS_HILIGHT_COLOR_ULO': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(31): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(550): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(32): warning C4603: 'FOCUS_HILIGHT_COLOR_LRO': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(32): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(550): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(33): warning C4603: 'FOCUS_HILIGHT_COLOR_ULI': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(33): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(550): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(34): warning C4603: 'FOCUS_HILIGHT_COLOR_LRI': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(34): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(550): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(35): warning C4603: 'SPLITTER_CX': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(35): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(550): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(36): warning C4603: 'SPLITTER_CY': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(36): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(550): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(37): warning C4603: 'SPLITTER_GAPX': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(37): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(550): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(38): warning C4603: 'SPLITTER_GAPY': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(38): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(550): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(284): warning C4603: 'IDC_TAB': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(284): message : Add macro to precompiled header instead of defining here
+  CustomTabCtrl.cpp
+  CaptionEditXP.cpp
+  SystemObject.cpp
+  Generating Code...
+  Compiling...
+  SaveLoad.cpp
+  Ribbon.cpp
+  Resources.cpp
+  ObjectFunctions.cpp
+  Languages.cpp
+  GUIPersistence.cpp
+  Export_Resources.cpp
+  Export_Images.cpp
+  Export_Events.cpp
+  Export.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\UI Elements\Controls\FlatSplitterWnd.cpp(550): message : use of precompiled header
+  Export - Python.cpp
+  Export - Layout.cpp
+  Export - Installer.cpp
+  CTypeChecker.cpp
+  CObjectType.cpp
+  CObject.cpp
+  CLayout.cpp
+  CLayer.cpp
+  CImageResource.cpp
+  CFamily.cpp
+  Generating Code...
+  Compiling...
+  CDragObjects.cpp
+  CApplication.cpp
+  CAnimation.cpp
+  MainFrm.cpp
+  Tokenizer.cpp
+  ScintillaWnd.cpp
+  LayoutEditor.cpp
+  Layout Editor - Object.cpp
+  Layout Editor - Mouse.cpp
+  Layout Editor - Draw.cpp
+  ImageEditor.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Structure\Export\Export.cpp(54,30): warning C4267: '=': conversion from 'size_t' to 'wchar_t', possible loss of data
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBS\Include\Resources\Resource.h(47,1): warning C4005: 'IDC_STATIC_Y': macro redefinition
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Resource.h(480): message : see previous definition of 'IDC_STATIC_Y'
+  ExpTree.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\ImageEditor.cpp(1099,36): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(97): warning C4603: 'DEFINE_STD_GETOPERANDS': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(97): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1937): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(100): warning C4603: 'DEFINE_STD_BINARY': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(100): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1937): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(412): warning C4603: 'ELSENOTVALID': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(412): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1937): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(415): warning C4603: 'DEFAULTNOTVALID': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(415): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1937): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1456): warning C4603: 'DEG_TO_RAD': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1456): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1937): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1457): warning C4603: 'RAD_TO_DEG': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1457): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1937): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1478): warning C4603: 'DEFINE_STD_UNARY': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1478): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1937): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1576): warning C4603: 'CSTR_BUF': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1576): message : Add macro to precompiled header instead of defining here
+  CExpression.cpp
+  Event Sheet Editor.cpp
+  Event Sheet Editor - Right Click.cpp
+  Event Sheet Editor - Mouse & Keyboard.cpp
+  Event Sheet Editor - Lookup.cpp
+  Event Sheet Editor - Functions.cpp
+  Event Sheet Editor - Draw.cpp
+  Event Sheet Editor - Bookmarks.cpp
+  Generating Code...
+  Compiling...
+  Event Sheet Editor - Actions.cpp
+  EditorParam.cpp
+  EditorEvent.cpp
+  EditorCondition.cpp
+  EditorAction.cpp
+  CPictureEditor.cpp
+  ChronoEventEditor.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\Expressions\ExpTree.cpp(1937): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\LIBS\Include\Resources\Resource.h(47,1): warning C4005: 'IDC_STATIC_Y': macro redefinition
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Resource.h(480): message : see previous definition of 'IDC_STATIC_Y'
+  ActionTooltip.cpp
+  UsedPluginDlg.cpp
+  UpdateDlg.cpp
+  Script Dlg.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Editors\ChronoEventEditor\ChronoEventEditor.cpp(733,30): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  PythonLibs.cpp
+  Progress Dlg.cpp
+  Snippets Dlg.cpp
+  Rotate Dlg.cpp
+  ACE Filter Dlg.cpp
+  PicEdResizeDlg.cpp
+  ParametersDlg_Scintilla.cpp
+  ParametersDlg_Parameters.cpp
+  ParametersDlg_Expand.cpp
+  Generating Code...
+  Compiling...
+  OnFuncDlg.cpp
+  Object Selector Dlg.cpp
+  Object Info Dlg.cpp
+  Object Exchange Dlg.cpp
+  NewProjectDlg.cpp
+  New Variable Dlg.cpp
+  New Transition Dlg.cpp
+  New Family Dlg.cpp
+  New Effect Dlg.cpp
+  New Comment Dlg.cpp
+  New Behavior Dlg.cpp
+  New Angle Dlg.cpp
+  Menu Editor Dlg.cpp
+  Manage Variable Dlg.cpp
+  Manage Families Dlg.cpp
+  Manage Attributes Dlg.cpp
+  Manage Action Points Dlg.cpp
+  Install Settings Dlg.cpp
+  Insert Object Dlg.cpp
+  Import Images Dlg.cpp
+  Generating Code...
+  Compiling...
+  Image Editor Dlg.cpp
+  First Start Dlg.cpp
+  Find Replace Dlg.cpp
+  Remove Family Variable Dlg.cpp
+  FM - Private Variables.cpp
+  FM - Effects.cpp
+  FM - Behaviors.cpp
+  Family Manager Dlg.cpp
+  Export Wizard Dlg.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Script Dlg.cpp(40,2): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Export Wizard Dialog\Export Wizard Dlg.cpp(12): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Export Wizard Dialog\Export Wizard Dlg.cpp(12): message : Add macro to precompiled header instead of defining here
+  IconEdit.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Export Wizard Dialog\Export Wizard Dlg.cpp(339): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Event Wizard Dialog\IconEdit.cpp(45): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Event Wizard Dialog\IconEdit.cpp(45): message : Add macro to precompiled header instead of defining here
+  Event Wizard Dlg.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Event Wizard Dialog\IconEdit.cpp(404): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Event Wizard Dialog\Event Wizard Dlg.cpp(13): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Event Wizard Dialog\Event Wizard Dlg.cpp(13): message : Add macro to precompiled header instead of defining here
+  Event Wizard - Steps.cpp
+  Event Wizard - Filter.cpp
+  Error Dlg.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Event Wizard Dialog\Event Wizard Dlg.cpp(607): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Error Dlg.cpp(19): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Error Dlg.cpp(19): message : Add macro to precompiled header instead of defining here
+  Edit Grid Dlg.cpp
+  Edit Event Group Dlg.cpp
+  Controls Dlg.cpp
+  AddFamilyVarsDlg.cpp
+  About Dlg.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Error Dlg.cpp(109): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\About Dlg.cpp(7): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\About Dlg.cpp(7): message : Add macro to precompiled header instead of defining here
+  Construct.cpp
+  Generating Code...
+  Compiling...
+  Construct Doc.cpp
+  ChildFrame.cpp
+  PropertyItems.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\About Dlg.cpp(76): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\PropertyItems.cpp(8): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\PropertyItems.cpp(8): message : Add macro to precompiled header instead of defining here
+  PropertyChanges.cpp
+  PropertiesBar.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\PropertyItems.cpp(585): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\PropertiesBar.cpp(13): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\PropertiesBar.cpp(13): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\PropertiesBar.cpp(1633): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\PropertiesBar.cpp(75): warning C4603: 'IDC_PROPERTYTREE': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\PropertiesBar.cpp(75): message : Add macro to precompiled header instead of defining here
+  Propbar.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\PropertiesBar.cpp(1633): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\Propbar.cpp(10): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\Propbar.cpp(10): message : Add macro to precompiled header instead of defining here
+  ProjectBar.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\Propbar.cpp(362): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\ProjectBar.cpp(16): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\ProjectBar.cpp(16): message : Add macro to precompiled header instead of defining here
+  Object Bar.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\ProjectBar.cpp(1809): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\Object Bar.cpp(11): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\Object Bar.cpp(11): message : Add macro to precompiled header instead of defining here
+  LayerListBox.cpp
+  LayerDlg.cpp
+  LayerBar.cpp
+  AppProperties.cpp
+  Animator Bar.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\Object Bar.cpp(797): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\Animator Bar.cpp(10): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\Animator Bar.cpp(10): message : Add macro to precompiled header instead of defining here
+  CDisplay.cpp
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Bars\Animator Bar.cpp(1669): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\Common\CDisplay.cpp(6): warning C4603: '_CDISPLAY_CPP_': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\Common\CDisplay.cpp(6): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\Common\CDisplay.cpp(2776): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\Common\CDisplay.cpp(10): warning C4603: 'm_mipmaplevels': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\Common\CDisplay.cpp(10): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\Common\CDisplay.cpp(2776): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\Common\CDisplay.cpp(11): warning C4603: 'm_mipmap_filter': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\Common\CDisplay.cpp(11): message : Add macro to precompiled header instead of defining here
+  Generating Code...
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\Common\CDisplay.cpp(2776): message : use of precompiled header
+  Template Dlg.cpp
 cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
 C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Template Dlg.cpp(10): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
 C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Template Dlg.cpp(10): message : Add macro to precompiled header instead of defining here
+  Array Paste Dlg.cpp
 C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Template Dlg.cpp(205): message : use of precompiled header
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Array Paste Dlg.cpp(9): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Array Paste Dlg.cpp(9): message : Add macro to precompiled header instead of defining here
+  Generating Code...
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Array Paste Dlg.cpp(294): message : use of precompiled header
   ParametersDlg.cpp
 cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Parameters Dialog\ParametersDlg.cpp(598,10): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Parameters Dialog\ParametersDlg.cpp(37): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Parameters Dialog\ParametersDlg.cpp(37): message : Add macro to precompiled header instead of defining here
+C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Dialogs\Parameters Dialog\ParametersDlg.cpp(598): message : use of precompiled header
+  XString.cpp
+  XNamedColors.cpp
+  XHtmlDraw.cpp
+  tinyxmlparser.cpp
+  tinyxmlerror.cpp
+  tinyxml.cpp
+  tinystr.cpp
+  Generating Code...
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  CeXDib.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1267,5): warning MSB8012: TargetPath(C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\DebugXP\Construct.exe) does not match the Linker's OutputFile property value (C:\Users\traildev\Documents\GitHub\RETROWORK\construct\IDE\Construct.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+CDisplay.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+CxImage.lib(xImage.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximawnd.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximainfo.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximapal.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximaenc.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximatran.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximalpha.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximasel.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(xmemfile.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximadsp.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximaint.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximatga.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximapng.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximagif.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximajpg.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximatif.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximaico.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximabmp.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximath.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(ximaexif.obj) : error LNK2026: module unsafe for SAFESEH image.
+CxImage.lib(tif_xfile.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jdapimin.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jdapistd.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jdmaster.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jdmarker.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jerror.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jcapimin.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jcapistd.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jcparam.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jdinput.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jmemmgr.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jcomapi.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jutils.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jdmainct.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jdcoefct.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jdhuff.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jdphuff.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jddctmgr.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jdpostct.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jdsample.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jdcolor.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jdmerge.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jquant2.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jquant1.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jcmarker.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jcinit.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jmemnobs.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jidctflt.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jidctfst.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jidctint.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jidctred.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jcmainct.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jccoefct.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jchuff.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jcphuff.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jcdctmgr.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jcprepct.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jcsample.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jccolor.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jcmaster.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jfdctflt.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jfdctfst.obj) : error LNK2026: module unsafe for SAFESEH image.
+JPEGd.lib(Jfdctint.obj) : error LNK2026: module unsafe for SAFESEH image.
+PNGd.lib(pngread.obj) : error LNK2026: module unsafe for SAFESEH image.
+PNGd.lib(pngtrans.obj) : error LNK2026: module unsafe for SAFESEH image.
+PNGd.lib(pngrtran.obj) : error LNK2026: module unsafe for SAFESEH image.
+PNGd.lib(pngget.obj) : error LNK2026: module unsafe for SAFESEH image.
+PNGd.lib(pngerror.obj) : error LNK2026: module unsafe for SAFESEH image.
+PNGd.lib(pngrio.obj) : error LNK2026: module unsafe for SAFESEH image.
+PNGd.lib(png.obj) : error LNK2026: module unsafe for SAFESEH image.
+PNGd.lib(pngwrite.obj) : error LNK2026: module unsafe for SAFESEH image.
+PNGd.lib(pngset.obj) : error LNK2026: module unsafe for SAFESEH image.
+PNGd.lib(pngwio.obj) : error LNK2026: module unsafe for SAFESEH image.
+PNGd.lib(pngmem.obj) : error LNK2026: module unsafe for SAFESEH image.
+PNGd.lib(pngrutil.obj) : error LNK2026: module unsafe for SAFESEH image.
+PNGd.lib(pngwutil.obj) : error LNK2026: module unsafe for SAFESEH image.
+PNGd.lib(pngwtran.obj) : error LNK2026: module unsafe for SAFESEH image.
+ZLIB.lib(inflate.obj) : error LNK2026: module unsafe for SAFESEH image.
+ZLIB.lib(crc32.obj) : error LNK2026: module unsafe for SAFESEH image.
+ZLIB.lib(deflate.obj) : error LNK2026: module unsafe for SAFESEH image.
+ZLIB.lib(zutil.obj) : error LNK2026: module unsafe for SAFESEH image.
+ZLIB.lib(inffast.obj) : error LNK2026: module unsafe for SAFESEH image.
+ZLIB.lib(inftrees.obj) : error LNK2026: module unsafe for SAFESEH image.
+ZLIB.lib(adler32.obj) : error LNK2026: module unsafe for SAFESEH image.
+ZLIB.lib(trees.obj) : error LNK2026: module unsafe for SAFESEH image.
+ZLIB.lib(compress.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_close.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_read.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_strip.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_tile.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_open.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_getimage.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_dir.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_aux.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_dirwrite.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_write.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_flush.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_error.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_swab.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_dirread.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_compress.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_warning.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_dirinfo.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_codec.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_luv.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_zip.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_fax3.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_ojpeg.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_jpeg.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_next.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_thunder.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_packbits.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_lzw.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_dumpmode.obj) : error LNK2026: module unsafe for SAFESEH image.
+tiff.lib(tif_predict.obj) : error LNK2026: module unsafe for SAFESEH image.
+LINK : fatal error LNK1104: cannot open file 'ProfUIS284ym.lib'
